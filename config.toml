@@ -6,7 +6,7 @@ theme = "hugo-lodi-theme"
 [params]
     theme_color = "#574CDD"
     description = "Cameron Bielstein, software engineer"
-    description_photo = "portfolio.jpg"
+    description_photo = "share.png"
     favicon = "favicon.png"
     logo = "logo.png"
     twitter = "CBielstein"
@@ -19,10 +19,10 @@ theme = "hugo-lodi-theme"
 
 [params.hero]
     enable = true
-    avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Cameron, a software engineer living in the American Pacific Northwest."
+    avatar = "avatar.png"
+    subtitle = "Hi! I'm Cameron, a software engineer living in Seattle."
     hero_right = [
-            "**Currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com) and freelance. I received my education from [The University of Texas at Austin](https://www.utexas.edu/) and [Austin Community College](https://www.austincc.edu/)**",
+            "**I'm currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com) and freelance. I received my education from [The University of Texas at Austin](https://www.utexas.edu/) and [Austin Community College](https://www.austincc.edu/)**",
             "I have the following areas of expertise:",
             "* **Web Services**: Experience as an engineer on [Microsoft Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/) and a backend developer for the [Allen Brain Map](https://portal.brain-map.org/)",
             "* **Operating Systems**: Experience as an engineer on [Microsoft Windows](https://www.microsoft.com/en-us/windows) and a master's degree with from the [The University of Texas at Austin](https://www.utexas.edu/) with a focus in operating and distributed systems.",
