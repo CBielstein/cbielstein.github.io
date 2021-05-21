@@ -23,11 +23,11 @@ theme = "hugo-lodi-theme"
     subtitle = "Hi! I'm Cameron, a software engineer living in Seattle."
     hero_right = [
             "**I'm currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com) and freelance. I received my education from [The University of Texas at Austin](https://www.utexas.edu/) and [Austin Community College](https://www.austincc.edu/)**",
-            "I have the following areas of expertise:",
-            "* **Web Services**: Experience as an engineer on [Microsoft Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/) and a backend developer for the [Allen Brain Map](https://portal.brain-map.org/)",
-            "* **Operating Systems**: Experience as an engineer on [Microsoft Windows](https://www.microsoft.com/en-us/windows) and a master's degree with from the [The University of Texas at Austin](https://www.utexas.edu/) with a focus in operating and distributed systems.",
-            "* **Wireless Communication**: FCC licensed amateur radio operator and lead developer on the [open source APRS# project](https://github.com/CBielstein/APRSsharp/).",
-            "* **Mentoring**: Mentoring experience through [Hunt the Wumpus](https://www.lwsd.org/programs-and-services/communications/news/news-details/~board/high-schools/post/lwsd-teams-compete-in-microsofts-hunt-the-wumpus-game-design-competition), [InternLink 2020](http://web.archive.org/web/20210118044239/https://www.internlink.org/), and the Microsoft University Internship program."]
+            "I have the following areas of specialty:",
+            "* **Web Services**: Former engineer on [Microsoft Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/), backend developer for the [Allen Brain Map](https://portal.brain-map.org/), and a master's degree from [UT Austin](https://www.utexas.edu/) with a focus in distributed systems.",
+            "* **Operating Systems**: Former engineer on [Microsoft Windows](https://www.microsoft.com/en-us/windows) and a [master's thesis](https://repositories.lib.utexas.edu/handle/2152/31851) in secure distributed computing.",
+            "* **Digital Radio Services**: Developer and maintainer of the [open source APRS# packet radio project](https://github.com/CBielstein/APRSsharp/) and licensed FCC amateur radio operator.",
+            "* **Mentoring**: Mentoring experience through [Hunt the Wumpus](https://www.lwsd.org/programs-and-services/communications/news/news-details/~board/high-schools/post/lwsd-teams-compete-in-microsofts-hunt-the-wumpus-game-design-competition), [InternLink 2020](http://web.archive.org/web/20210118044239/https://www.internlink.org/), and the Microsoft university internship program."]
 
 [params.process]
     enable = false
