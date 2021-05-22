@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Cameron Bielstein"
 theme = "hugo-lodi-theme"
 
+disableKinds = ["taxonomy", "term"]
+
 [params]
     theme_color = "#574CDD"
     description = "Cameron Bielstein, software engineer"
