@@ -1,43 +1,43 @@
 baseURL = "localhost:1313"
 languageCode = "en-us"
-title = "My Portfolio Website"
+title = "Cameron Bielstein"
 theme = "hugo-lodi-theme"
-googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
     theme_color = "#574CDD"
-    description = "Portfolio of Alexis Collado, UX Designer"
-    description_photo = "portfolio.jpg"
+    description = "Cameron Bielstein, software engineer"
+    description_photo = "share.png"
     favicon = "favicon.png"
     logo = "logo.png"
-    email = "myemail@gmail.com"
-    facebook = "lex.collado"
-    twitter = "lexiscollado"
-    dribbble = "alexiscollado"
-    linkedin = "https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a"
-    medium = "ahvccollado"
-    github = "github"
-    googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
+    twitter = "CBielstein"
+    linkedin = "https://www.linkedin.com/in/cameronbielstein/"
+    github = "CBielstein"
+    googlescholar = "https://scholar.google.com/citations?user=BNIbkwMAAAAJ&hl=en"
 
 [params.nav]
     enable = true
 
 [params.hero]
     enable = true
-    avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Alexis, a UX Designer and Evangelist from Manila."
-    hero_right = ["**Currently doing consultancy work at UX Society. Previously doing UX and product at Agoda in Bangkok, Thailand as an international intern.**", "I founded [User Experience Society](https://www.facebook.com/UXSoc/), the first student UX organization in the Philippines. For two years, we've had 20+ events with 30+ speakers for over 300 members and 500+ attendees. We've expanded to [California](https://www.facebook.com/profile.php?id=245708449193012) this year.", "I do a bit of writing as well. [Here's an article with a total of 21,000+ views to InVision & Medium](http://blog.invisionapp.com/ux-internship-wisdom/) talking about 50 things I learned spending 3 years as a UX intern.", "I help cultivate the design community in Manila too. I'm the youngest core member of [UX Philippines](https://www.facebook.com/groups/uxphilippines/) and I moderated a panel with some cool people for the [UXPH 2017 Conference](https://www.uxphilippines.com).", "I'm finishing my Bachelor's degree in Management Information Systems at the Ateneo de Manila University, expecting to graduate in 2018."]
-    resume = "ResumeCollado.pdf"
+    avatar = "avatar.png"
+    subtitle = "Hi! I'm Cameron, a software engineer living in Seattle."
+    hero_right = [
+            "**I'm currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com) and freelance. I received my education from [The University of Texas at Austin](https://www.utexas.edu/) and [Austin Community College](https://www.austincc.edu/)**",
+            "I have the following areas of specialty:",
+            "* **Web Services**: Former engineer on [Microsoft Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/), backend developer for the [Allen Brain Map](https://portal.brain-map.org/), and a master's degree from [UT Austin](https://www.utexas.edu/) with a focus in distributed systems.",
+            "* **Operating Systems**: Former engineer on [Microsoft Windows](https://www.microsoft.com/en-us/windows) and a [master's thesis](https://repositories.lib.utexas.edu/handle/2152/31851) in secure distributed computing.",
+            "* **Wireless Communication**: Developer of the [open source APRS# packet radio project](https://github.com/CBielstein/APRSsharp/) and licensed FCC amateur radio operator.",
+            "* **Mentorship**: Mentorship and coaching experience with [Hunt the Wumpus](https://www.lwsd.org/programs-and-services/communications/news/news-details/~board/high-schools/post/lwsd-teams-compete-in-microsofts-hunt-the-wumpus-game-design-competition), [InternLink 2020](http://web.archive.org/web/20210118044239/https://www.internlink.org/), and the Microsoft university internship program."]
 
 [params.process]
-    enable = true
+    enable = false
     title = "My Process"
     subtitle = "Full Process Design"
 
 [params.case_studies]
-    enable = true
+    enable = false
     title = "Case Studies"
     subtitle = "Selected Works"
 
 [params.footer]
-    enable = true
+    enable = false
