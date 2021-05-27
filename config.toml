@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "cbielstein.github.io"
 languageCode = "en-us"
 title = "Cameron Bielstein"
 theme = "hugo-lodi-theme"
