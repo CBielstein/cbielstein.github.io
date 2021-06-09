@@ -15,6 +15,7 @@ disableKinds = ["taxonomy", "term"]
     linkedin = "https://www.linkedin.com/in/cameronbielstein/"
     github = "CBielstein"
     googlescholar = "https://scholar.google.com/citations?user=BNIbkwMAAAAJ&hl=en"
+    stackoverflow = "https://stackoverflow.com/users/1676364/cameron-bielstein"
 
 [params.nav]
     enable = true

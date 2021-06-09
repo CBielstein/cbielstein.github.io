@@ -47,6 +47,9 @@ theme = "hugo-lodi-theme"
     # Google Scholar URL
     # googlescholar = ""
 
+    # stackoverflow.com URL
+    # stackoverflow = ""
+
 [params.nav]
     enable = true
 
