@@ -6,7 +6,7 @@ theme = "hugo-lodi-theme"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-    theme_color = "#574CDD"
+    theme_color = "#006d00"
     description = "Cameron Bielstein, software engineer"
     description_photo = "share.png"
     favicon = "favicon.png"
