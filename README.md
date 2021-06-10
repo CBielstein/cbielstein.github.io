@@ -2,6 +2,6 @@
 
 A personal website for Cameron Bielstein.
 
-Built with [Hugo](https://gohugo.io/) using the [xaviablaza/hugo-lodi-theme](https://github.com/xaviablaza/hugo-lodi-theme) theme.
+Currently hosted at [bielstein.dev](https://bielstein.dev).
 
-Hosted using [GitHub Pages](https://pages.github.com/)
+Built with [Hugo](https://gohugo.io/), based on the the [xaviablaza/hugo-lodi-theme](https://github.com/xaviablaza/hugo-lodi-theme) theme, and hosted using [GitHub Pages](https://pages.github.com/).
