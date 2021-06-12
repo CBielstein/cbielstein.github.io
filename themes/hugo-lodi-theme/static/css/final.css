@@ -265,6 +265,11 @@ section {
           justify-content: space-between;
 }
 
+.process-icon {
+  max-width: 30px;
+  max-height: 30px;
+}
+
 .item-header {
   display: -webkit-box;
   display: -ms-flexbox;
