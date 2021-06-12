@@ -200,7 +200,9 @@ section {
   font-style: normal !important;
 }
 
-.hero-right a {
+.hero-right a,
+.content-case-study a,
+.process a {
   color: #006d00;
   text-decoration: underline;
 }
@@ -502,11 +504,6 @@ section {
 .content-case-study img {
   max-width: 100%;
   margin-top: 20px;
-}
-
-.content-case-study a {
-  color: #006d00;
-  text-decoration: underline;
 }
 
 .content-case-study h1 {

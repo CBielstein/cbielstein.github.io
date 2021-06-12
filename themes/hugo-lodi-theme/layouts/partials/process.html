@@ -11,7 +11,7 @@
                     <img src="svg/{{ $element.icon }}">
                     <h3>{{ $element.title }}</h3>
                 </figure>
-                <p>{{ $element.description }}</p>
+                <p>{{ $element.description | markdownify }}</p>
             </div>
             {{ end }}
         </div>
