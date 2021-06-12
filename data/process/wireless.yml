@@ -1,4 +1,4 @@
 weight: 3
 title: "Wireless Communications"
 icon: "radio_waves.svg"
-description: "Developer of the open source [APRS# packet radio project](https://github.com/CBielstein/APRSsharp/) and licensed FCC amateur radio operator."
+description: "I developed the [POCSAG](https://en.wikipedia.org/wiki/POCSAG) encoder library trusted by the [Burning Man Festival](https://burningman.org/) for emergency dispatch since 2019 and the open source [APRS# packet radio project](https://github.com/CBielstein/APRSsharp/). I am also a licensed FCC amateur radio operator."

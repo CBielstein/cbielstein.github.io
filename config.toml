@@ -32,7 +32,7 @@ disableKinds = ["taxonomy", "term"]
 [params.process]
     enable = true
     title = "Specialties"
-    subtitle = "Some Areas of Experience"
+    subtitle = ""
 
 [params.case_studies]
     enable = false
