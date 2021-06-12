@@ -25,7 +25,9 @@ disableKinds = ["taxonomy", "term"]
     avatar = "avatar.png"
     subtitle = "Hi! I'm Cameron, a software engineer living in Seattle."
     hero_right = [
-            "**I'm currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com) and freelance. I received my education from [The University of Texas at Austin](https://www.utexas.edu/) and [Austin Community College](https://www.austincc.edu/)**"]
+            "I'm currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com), freelance, and internships.",
+            "I received my education from [The University of Texas at Austin](https://www.utexas.edu/), where I completed a master's in computer science, and [Austin Community College](https://www.austincc.edu/), where I discovered my love of programming.",
+            "In my spare time, I can be found operating amateur radio or playing with my dog."]
 
 [params.process]
     enable = true
