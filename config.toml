@@ -33,9 +33,9 @@ disableKinds = ["taxonomy", "term"]
             "* **Mentorship**: Mentorship and coaching experience with [Hunt the Wumpus](https://www.lwsd.org/programs-and-services/communications/news/news-details/~board/high-schools/post/lwsd-teams-compete-in-microsofts-hunt-the-wumpus-game-design-competition), [InternLink 2020](http://web.archive.org/web/20210118044239/https://www.internlink.org/), and the Microsoft university internship program."]
 
 [params.process]
-    enable = false
-    title = "My Process"
-    subtitle = "Full Process Design"
+    enable = true
+    title = "Specialties"
+    subtitle = "Some Areas of Experience"
 
 [params.case_studies]
     enable = false
