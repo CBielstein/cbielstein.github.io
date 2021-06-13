@@ -28,7 +28,7 @@ disableKinds = ["taxonomy", "term"]
             "I'm currently building scientific software for the [Allen Institute for Brain Science](https://alleninstitute.org/what-we-do/brain-science/). Previous work includes [Microsoft](https://www.microsoft.com), freelance, and various internships.",
             "I received my education from [The University of Texas at Austin](https://www.utexas.edu/), where I completed a master's in computer science, and [Austin Community College](https://www.austincc.edu/), where I first discovered my love of programming.",
             "I enjoy building high-quality and reliable software and I'm passionate about using technology and technology companies for societal good.",
-            "In my spare time, I can be found sailing, tinkering with a ham radio, or with my dog in the park."]
+            "In my spare time, I can be found sailing, tinkering with a ham radio, or in the park with my dog."]
 
 [params.process]
     enable = true
