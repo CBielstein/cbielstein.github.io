@@ -1,0 +1,19 @@
+<section data-scroll-index="1">
+    <div class="specialties">
+        <div class="header">
+            <h1 class="title">{{ .Site.Params.specialties.Title }}</h1>
+            <h2 class="subtitle">{{ .Site.Params.specialties.Subtitle }}</h2>
+        </div>
+        <div class="specialties-wrapper">
+            {{ range $element := sort .Site.Data.specialties "weight" }}
+            <div class="specialties-item">
+                <figure class="item-header">
+                    <img class="specialties-icon" src="svg/{{ $element.icon }}">
+                    <h3>{{ $element.title }}</h3>
+                </figure>
+                <p>{{ $element.description | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

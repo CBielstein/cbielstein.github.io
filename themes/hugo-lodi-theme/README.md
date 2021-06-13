@@ -1,7 +1,7 @@
 # Lodi Theme
 
 This theme is a Hugo port of [Alexis Collado's portfolio website](http://www.alexiscollado.com). It is meant to be a portfolio theme, with sections for describing yourself, your 
-process, and some case studies.
+specialties, and some case studies.
 
 ![](images/screenshot.png)
 

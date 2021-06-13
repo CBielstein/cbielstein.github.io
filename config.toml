@@ -30,10 +30,9 @@ disableKinds = ["taxonomy", "term"]
             "I enjoy building high-quality and reliable software and I'm passionate about using technology and technology companies for societal good.",
             "In my spare time, I can be found sailing, tinkering with a ham radio, or in the park with my dog."]
 
-[params.process]
+[params.specialties]
     enable = true
     title = "Specialties"
-    subtitle = ""
 
 [params.case_studies]
     enable = false
