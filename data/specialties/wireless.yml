@@ -1,0 +1,4 @@
+weight: 3
+title: "Wireless Communications"
+icon: "radio_waves.svg"
+description: "I developed the [POCSAG](https://en.wikipedia.org/wiki/POCSAG) encoding library trusted by the [Burning Man Festival](https://burningman.org/) for emergency dispatch since 2019. I am also a licensed FCC amateur radio operator and maintain the open source [APRS# packet radio project](https://github.com/CBielstein/APRSsharp/)."

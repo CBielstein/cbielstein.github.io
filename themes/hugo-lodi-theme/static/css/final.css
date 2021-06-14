@@ -109,7 +109,7 @@ footer {
   #about {
     display: none;
   }
-  #process-link {
+  #specialties-link {
     display: none !important;
   }
 }
@@ -144,7 +144,7 @@ section {
   max-width: 1000px;
 }
 
-.process {
+.specialties {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,7 +200,9 @@ section {
   font-style: normal !important;
 }
 
-.hero-right a {
+.hero-right a,
+.content-case-study a,
+.specialties a {
   color: #006d00;
   text-decoration: underline;
 }
@@ -233,7 +235,7 @@ section {
 }
 
 .title {
-  /* My Process: */
+  /* Specialties: */
   font-family: Roboto;
   font-weight: bold;
   margin: 0;
@@ -243,16 +245,16 @@ section {
   line-height: 0.4em;
 }
 
-.process-item {
-  max-width: 300px;
+.specialties-item {
+  max-width: 450px;
   padding-top: 20px;
 }
 
-.process-item h3 {
+.specialties-item h3 {
   margin-left: 15px;
 }
 
-.process-wrapper {
+.specialties-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,6 +263,11 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.specialties-icon {
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .item-header {
@@ -277,16 +284,14 @@ section {
   height: 35px;
 }
 
-.process-item p {
-  /* I collaborate with s: */
+.specialties-item p {
   font-size: 16px;
   color: #777777;
   letter-spacing: 0;
   line-height: 1.8em;
 }
 
-.process-item h3 {
-  /* Discover: */
+.specialties-item h3 {
   font-size: 28px;
   color: #006d00;
   letter-spacing: 0;
@@ -504,11 +509,6 @@ section {
   margin-top: 20px;
 }
 
-.content-case-study a {
-  color: #006d00;
-  text-decoration: underline;
-}
-
 .content-case-study h1 {
   margin: 0;
   margin-top: 2.4em;
@@ -555,7 +555,7 @@ section {
     width: 100%;
     margin-top: 30px;
   }
-  .process-item {
+  .specialties-item {
     max-width: 45%;
   }
 }
@@ -571,7 +571,7 @@ section {
   .hi, .title {
     font-size: 40px;
   }
-  .process-item h3 {
+  .specialties-item h3 {
     font-size: 24px;
   }
   .subtitle {
@@ -587,7 +587,7 @@ section {
 }
 
 @media all and (max-width:500px) {
-  .process-item {
+  .specialties-item {
     max-width: 100%;
   }
 }
