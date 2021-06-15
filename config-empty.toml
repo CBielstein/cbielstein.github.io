@@ -77,10 +77,10 @@ theme = "hugo-lodi-theme"
     title = "Specialties"
     subtitle = ""
 
-[params.case_studies]
+[params.projects]
     enable = true
-    title = "Case Studies"
-    subtitle = "Selected Works"
+    title = "Projects"
+    subtitle = "Open Source and Personal Projects"
 
 [params.footer]
     enable = true

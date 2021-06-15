@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
     <head>
-        {{ partial "head_casestudy.html" . }}
+        {{ partial "head_project.html" . }}
     </head>
     <body>
-        {{ partial "nav_casestudy.html" . }}
-        {{ partial "casestudy_main.html" . }}
+        {{ partial "nav_project.html" . }}
+        {{ partial "project_main.html" . }}
         {{ partial "testimonial.html" . }}
 
         <section>
@@ -14,8 +14,8 @@
             </div>
         </section>
 
-        {{ if .Site.Params.case_studies.enable }}
-        {{ partial "case_studies.html" . }}
+        {{ if .Site.Params.projects.enable }}
+        {{ partial "projects.html" . }}
         {{ end }}
 
         {{ if .Site.Params.footer.enable }}

@@ -1,7 +1,7 @@
 # Lodi Theme
 
 This theme is a Hugo port of [Alexis Collado's portfolio website](http://www.alexiscollado.com). It is meant to be a portfolio theme, with sections for describing yourself, your 
-specialties, and some case studies.
+specialties, and some projects.
 
 ![](images/screenshot.png)
 
@@ -47,19 +47,19 @@ description: "I set a direction for the branding and identity of the product and
 # This the heading of the navigation at the top of the case study
 nav_heading: "Cope Case Study"
 
-# This is what appears in the case studies section, place this image at the /static/img folder
+# This is what appears in the projects section, place this image at the /static/img folder
 thumbnail: "cope.jpg"
 
-# This is the title of the case study in the case studies section
+# This is the title of the case study in the projects section
 case_short_title: "Cope iOS App"
 
 # This is the title of the case study in the case study page
 case_title: "Cope iOS App"
 
-# This is the subtitle of the case study in the case studies section and the case study page
+# This is the subtitle of the case study in the projects section and the case study page
 case_subtitle: "Mobile App Design"
 
-# This is the case description in the case studies section
+# This is the case description in the projects section
 case_description: "Cope is a mobile app that allows mental health help seekers track their symptoms and medication. I helped them create a minimum viable product for testing."
 
 # This is the featured image of the case, place this image at /post_title_here/img folder
