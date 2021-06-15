@@ -8,6 +8,10 @@ project_short_title: "UbiPAL"
 project_subtitle: "Secure IoT platform"
 project_description: "A decentralized IoT security platform with dynamic and human-readible access control language."
 project_summary: "UbiPAL is the result of a master's thesis written at UT Austin. The project extended the SecPAL policy assertion language to support dynamic, environmental conditions in policy assertions. The requirement for centralized rule servers is also removed, allowing the ubiquitous network to stay online through single-point failures through direct negotiation of access rights between devices."
+collaborators:
+    - name: "Robert F. Dickerson, PhD"
+      link: "https://rfdickerson.github.io/"
+technologies: ["C++", "Public Key Cryptography", "Internet of Things", "Raspberry Pi"]
 button_links:
     - link: "https://repositories.lib.utexas.edu/handle/2152/31851"
       img: "book.svg"

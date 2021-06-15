@@ -6,7 +6,10 @@
     <body>
         {{ partial "nav_project.html" . }}
         {{ partial "project_main.html" . }}
-        {{ partial "testimonial.html" . }}
+
+        {{ if .Params.testimonial }}
+            {{ partial "testimonial.html" . }}
+        {{ end }}
 
         <section>
             <div class="content-project">
@@ -15,11 +18,11 @@
         </section>
 
         {{ if .Site.Params.projects.enable }}
-        {{ partial "projects.html" . }}
+            {{ partial "projects.html" . }}
         {{ end }}
 
         {{ if .Site.Params.footer.enable }}
-        {{ partial "footer.html" . }}
+            {{ partial "footer.html" . }}
         {{ end }}
 
         {{ partial "scripts.html" . }}

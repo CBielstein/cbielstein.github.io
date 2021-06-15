@@ -69,14 +69,17 @@ project_feature_img: "featured-cope.jpg"
 # This is the project summary in the project itself
 project_summary: "Cope is an application that helps users track their mental health. Progress is measured through the use of a check-in system, calendar, medicine tracker and a summary dashboard. I created a minimum viable product for this application."
 
-# Your team members
-team: ["Alexis Collado", "Carlos Arcenas", "Kat Uytiepo", "John Palomo"]
+# Other people who worked on the project, optional
+collaborators:
+  - name: "Carlos Arcenas"
+    url: "<personal site URL here>"
+  - name: "Kat Uytiepo"
+    url: "<personal site URL here>"
+  - name: "John Palomo"
+    url: "<personal site URL here>"
 
-# Roles of your team members
-roles: ["Branding and Identity", "User Interface Design", "Prototyping", "User Research"]
-
-# Methods your team members used
-methods: ["Sketching", "Mockups", "Guerilla Testing"]
+# Technologies used on the project, optional
+technologies: ["Sketching", "Mockups", "Guerilla Testing"]
 
 # Links at the bottom of the project and where they link to
 # img is the svg that's part of the button. You can use eyeball.svg or download.svg
