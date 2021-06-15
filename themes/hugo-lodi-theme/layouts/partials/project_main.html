@@ -16,10 +16,9 @@
             {{ end }}
             {{ if .Params.technologies }}
                 <div class="project-details-item">
-                    <p><strong>Technologies:</strong>
-                        {{ range .Params.technologies }}
-                        {{ . }}, 
-                        {{ end }}
+                    <p>
+                        <strong>Technologies:</strong>
+                        {{ delimit .Params.technologies ", " }}
                     </p>
                 </div>
             {{ end }}
