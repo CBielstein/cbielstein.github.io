@@ -190,7 +190,7 @@ section {
 }
 
 .hero-right a,
-.content-case-study a,
+.content-project a,
 .specialties a {
   color: #006d00;
   text-decoration: underline;
@@ -300,19 +300,19 @@ section {
           justify-content: space-between;
 }
 
-.case-study-item {
+.project-item {
   max-width: 300px;
   margin-top: 45px;
 }
 
-.case-study-item h4 {
+.project-item h4 {
   font-size: 26px;
   font-weight: 300;
   margin: 0;
   line-height: 2.4em;
 }
 
-.case-study-item h5 {
+.project-item h5 {
   font-size: 13px;
   font-weight: 700;
   color: #5A5A5A;
@@ -321,7 +321,7 @@ section {
   text-transform: uppercase;
 }
 
-.case-study-item p {
+.project-item p {
   font-size: 16px;
   color: #777777;
   letter-spacing: 0;
@@ -341,7 +341,7 @@ section {
   border-radius: 2px;
 }
 
-.main-case-study {
+.main-project {
   max-width: 1000px;
   display: block;
   margin: 0 auto;
@@ -388,16 +388,16 @@ section {
   border: 3px solid #006d00;
 }
 
-.main-case-study img {
+.main-project img {
   max-width: 100%;
 }
 
-.main-case-study .title {
+.main-project .title {
   line-height: 1em;
   margin-top: 20px;
 }
 
-.main-case-study .subtitle {
+.main-project .subtitle {
   /* Mobile App Design: */
   font-family: Roboto;
   font-weight: bold;
@@ -406,7 +406,7 @@ section {
   letter-spacing: 0;
 }
 
-.main-case-study .summary {
+.main-project .summary {
   /* The objective of thi: */
   font-family: Roboto;
   font-weight: 300;
@@ -416,11 +416,11 @@ section {
   line-height: 39px;
 }
 
-.case-study-item img {
+.project-item img {
   max-width: 100%;
 }
 
-.case-details {
+.project-details {
   margin: 0;
   padding: 0;
   display: flex;
@@ -430,7 +430,7 @@ section {
   flex-wrap: wrap;
 }
 
-.case-links {
+.project-links {
   margin-top: 26px;
   padding-bottom: 30px;
 }
@@ -440,13 +440,13 @@ section {
   padding: 15px 15px 15px 0;
 }
 
-.case-links img {
+.project-links img {
   position: relative;
   top: 2.9px;
   padding-right: 8px;
 }
 
-.case-detail-link {
+.project-detail-link {
   padding: 15px 30px;
   /* border: 1px solid #fafafa; */
   color: #006d00;
@@ -470,7 +470,7 @@ section {
   .link-div {
     display: block;
   }
-  .case-detail-link {
+  .project-detail-link {
       display: block;
       width: 100%;
       padding:25px;
@@ -478,13 +478,13 @@ section {
   }
 }
 
-.content-case-study {
+.content-project {
   max-width: 1000px;
   display: block;
   margin: 0 auto;
 }
 
-.content-case-study p {
+.content-project p {
   /* Each member of our t: */
   font-family: Roboto;
   font-size: 19px;
@@ -493,44 +493,44 @@ section {
   line-height: 30px;
 }
 
-.content-case-study img {
+.content-project img {
   max-width: 100%;
   margin-top: 20px;
 }
 
-.content-case-study h1 {
+.content-project h1 {
   margin: 0;
   margin-top: 2.4em;
 }
 
 @media all and (max-width: 513px) {
-  .case-details {
+  .project-details {
     justify-content: flex-start;
   }
   .download-resume {
     display: block;
     width: 100%;
   }
-  .case-details-item {
+  .project-details-item {
     padding-right: 25px !important;
   }
 }
 
-.case-details-item {
+.project-details-item {
   padding-right: 20px;
 }
 
-.case-details-item strong {
+.project-details-item strong {
   font-weight: bold;
 }
 
-.case-details-item p {
+.project-details-item p {
   line-height: 1.8em;
   font-size: 16px;
 }
 
 @media all and (max-width:1040px) {
-  .case-study-item {
+  .project-item {
     max-width: 48%;
     margin-top: 40px;
   }
@@ -550,11 +550,11 @@ section {
 }
 
 @media all and (max-width: 728px) {
-  .case-study-item {
+  .project-item {
     max-width: 100%;
     margin-top: 40px;
   }
-  .case-study-item:first-of-type {
+  .project-item:first-of-type {
     margin-top: 13px;
   }
   .hi, .title {
