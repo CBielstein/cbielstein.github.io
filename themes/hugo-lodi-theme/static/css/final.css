@@ -455,6 +455,11 @@ section {
   margin-right: 1em;
 }
 
+.project-detail-link-img {
+  height: 35px;
+  width: 35px;
+}
+
 @media all and (max-width: 981px) {
   .hero-left {
     margin: 0 auto;
