@@ -8,9 +8,11 @@
             {{ if .Params.collaborators }}
                 <div class="project-details-item">
                     <p><strong>Collaborators:</strong>
-                        {{ range .Params.collaborators }}
-                            <a href="{{ .url }}">{{ .name }}</a>, 
-                        {{end}}
+                        <span>
+                            {{ range .Params.collaborators }}
+                                <a href="{{ .url }}">{{ .name }}</a>
+                            {{end}}
+                        </span>
                     </p>
                 </div>
             {{ end }}
