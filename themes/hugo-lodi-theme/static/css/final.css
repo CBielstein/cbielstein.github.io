@@ -191,7 +191,8 @@ section {
 
 .hero-right a,
 .content-project a,
-.specialties a {
+.specialties a,
+.project-details-item a {
   color: #006d00;
   text-decoration: underline;
 }
@@ -489,8 +490,8 @@ section {
   margin: 0 auto;
 }
 
-.content-project p {
-  /* Each member of our t: */
+.content-project p,
+.content-project li {
   font-family: Roboto;
   font-size: 19px;
   color: #676767;
