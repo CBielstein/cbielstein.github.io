@@ -6,7 +6,7 @@
         </div>
         <div class="projects-wrapper">
             {{ $baseUrl := .Site.BaseURL }}
-            {{ range where .Site.Pages "Kind" "page" }}
+            {{ range sort (where .Site.Pages "Kind" "page") ".Params.weight" }}
             <div class="project-item">
                 <a href="{{ .URL }}"><img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt=""></a>
                 <h4>{{ .Params.project_short_title }}</h4>
