@@ -3,8 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/xaviablaza/yourtheme/blob/master/LICENSE.md"
 description = "Hugo Lodi Theme ported to Hugo by Xavi Ablaza"
 homepage = "https://github.com/xaviablaza/hugo-lodi-theme"
-tags = ["lodi", "responsive", "hero", "personal", "portfolio", "case study", "ux"]
-features = ["homepage", "case studies", "specialties"]
+tags = ["lodi", "responsive", "hero", "personal", "portfolio", "project", "ux"]
+features = ["homepage", "projects", "specialties"]
 min_version = "0.29"
 
 [author]

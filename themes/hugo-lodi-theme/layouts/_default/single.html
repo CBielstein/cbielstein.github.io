@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
     <head>
-        {{ partial "head_casestudy.html" . }}
+        {{ partial "head_project.html" . }}
     </head>
     <body>
-        {{ partial "nav_casestudy.html" . }}
-        {{ partial "casestudy_main.html" . }}
-        {{ partial "testimonial.html" . }}
+        {{ partial "nav_project.html" . }}
+        {{ partial "project_main.html" . }}
+
+        {{ if .Params.testimonial }}
+            {{ partial "testimonial.html" . }}
+        {{ end }}
 
         <section>
-            <div class="content-case-study">
+            <div class="content-project">
                 {{ .Content }}
             </div>
         </section>
 
-        {{ if .Site.Params.case_studies.enable }}
-        {{ partial "case_studies.html" . }}
+        {{ if .Site.Params.projects.enable }}
+            {{ partial "projects.html" . }}
         {{ end }}
 
         {{ if .Site.Params.footer.enable }}
-        {{ partial "footer.html" . }}
+            {{ partial "footer.html" . }}
         {{ end }}
 
         {{ partial "scripts.html" . }}

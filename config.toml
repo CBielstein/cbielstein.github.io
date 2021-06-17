@@ -33,11 +33,12 @@ disableKinds = ["taxonomy", "term"]
 [params.specialties]
     enable = true
     title = "Specialties"
+    subtitle = "Areas of Experience"
 
-[params.case_studies]
-    enable = false
-    title = "Case Studies"
-    subtitle = "Selected Works"
+[params.projects]
+    enable = true
+    title = "Projects"
+    subtitle = "Open Source and Personal Projects"
 
 [params.footer]
     enable = true

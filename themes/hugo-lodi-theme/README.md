@@ -1,7 +1,7 @@
 # Lodi Theme
 
 This theme is a Hugo port of [Alexis Collado's portfolio website](http://www.alexiscollado.com). It is meant to be a portfolio theme, with sections for describing yourself, your 
-specialties, and some case studies.
+specialties, and some projects.
 
 ![](images/screenshot.png)
 
@@ -25,13 +25,13 @@ $ cp -r hugo-lodi-theme/exampleSite/* ../
 
 Add `theme = "hugo-lodi-theme"` to the  `config.toml` in your root folder, or when serving, use `hugo server -t hugo-lodi-theme`
 
-## Adding a new case study
+## Adding a new project
 
 At the root of your Hugo site, you can use
 ```sh
 $ hugo new mypost.md
 ```
-to generate a new case study post. To find the post, you can go to `content/mypost.md` and you can use that file to write details about your case study and the body of your case study in markdown.
+to generate a new project post. To find the post, you can go to `content/mypost.md` and you can use that file to write details about your project and the body of your project in markdown.
 
 ```yaml
 ---
@@ -44,41 +44,44 @@ title: "Cope | Alexis Collado"
 # This is the description in the <head> tag
 description: "I set a direction for the branding and identity of the product and crafted a functioning prototype ready for usability testing and development."
 
-# This the heading of the navigation at the top of the case study
-nav_heading: "Cope Case Study"
+# This the heading of the navigation at the top of the project
+nav_heading: "Cope Project"
 
-# This is what appears in the case studies section, place this image at the /static/img folder
+# This is what appears in the projects section, place this image at the /static/img folder
 thumbnail: "cope.jpg"
 
-# This is the title of the case study in the case studies section
-case_short_title: "Cope iOS App"
+# This is the title of the project in the projects section
+project_short_title: "Cope iOS App"
 
-# This is the title of the case study in the case study page
-case_title: "Cope iOS App"
+# This is the title of the project in the project page
+project_title: "Cope iOS App"
 
-# This is the subtitle of the case study in the case studies section and the case study page
-case_subtitle: "Mobile App Design"
+# This is the subtitle of the project in the projects section and the project page
+project_subtitle: "Mobile App Design"
 
-# This is the case description in the case studies section
-case_description: "Cope is a mobile app that allows mental health help seekers track their symptoms and medication. I helped them create a minimum viable product for testing."
+# This is the project description in the projects section
+project_description: "Cope is a mobile app that allows mental health help seekers track their symptoms and medication. I helped them create a minimum viable product for testing."
 
-# This is the featured image of the case, place this image at /post_title_here/img folder
+# This is the featured image of the project, place this image at /post_title_here/img folder
 # e.g. /mypost/img
-case_feature_img: "featured-cope.jpg"
+project_feature_img: "featured-cope.jpg"
 
-# This is the case summary in the case itself
-case_summary: "Cope is an application that helps users track their mental health. Progress is measured through the use of a check-in system, calendar, medicine tracker and a summary dashboard. I created a minimum viable product for this application."
+# This is the project summary in the project itself
+project_summary: "Cope is an application that helps users track their mental health. Progress is measured through the use of a check-in system, calendar, medicine tracker and a summary dashboard. I created a minimum viable product for this application."
 
-# Your team members
-team: ["Alexis Collado", "Carlos Arcenas", "Kat Uytiepo", "John Palomo"]
+# Other people who worked on the project, optional
+collaborators:
+  - name: "Carlos Arcenas"
+    url: "<personal site URL here>"
+  - name: "Kat Uytiepo"
+    url: "<personal site URL here>"
+  - name: "John Palomo"
+    url: "<personal site URL here>"
 
-# Roles of your team members
-roles: ["Branding and Identity", "User Interface Design", "Prototyping", "User Research"]
+# Technologies used on the project, optional
+technologies: ["Sketching", "Mockups", "Guerilla Testing"]
 
-# Methods your team members used
-methods: ["Sketching", "Mockups", "Guerilla Testing"]
-
-# Links at the bottom of the case study and where they link to
+# Links at the bottom of the project and where they link to
 # img is the svg that's part of the button. You can use eyeball.svg or download.svg
 # Place your custom svgs into /static/svg
 button_links:
@@ -108,7 +111,7 @@ testimonial_subtitle: "Co-founder, Cope"
 date: {{ .Date }}
 draft: false
 
-# Write the content of your case study below the three dashed lines. You can use markdown and raw HTML.
+# Write the content of your project below the three dashed lines. You can use markdown and raw HTML.
 ---
 
 ```

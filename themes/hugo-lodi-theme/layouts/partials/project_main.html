@@ -1,0 +1,41 @@
+<section>
+    <div class="main-project">
+        <h1 class="title" style="text-align: center;">{{ .Params.project_title }}</h1>
+        <h2 class="subtitle" style="text-align: center;">{{ .Params.project_subtitle }}</h2>
+        <img src="img/{{ .Params.project_feature_img }}" alt="">
+        <p class="summary">{{ .Params.project_summary }}</p>
+        <div class="project-details">
+            {{ if .Params.collaborators }}
+                <div class="project-details-item">
+                    <p><strong>Collaborators:</strong>
+                        <span>
+                            {{ range .Params.collaborators }}
+                                <a href="{{ .url }}">{{ .name }}</a>
+                            {{end}}
+                        </span>
+                    </p>
+                </div>
+            {{ end }}
+            {{ if .Params.technologies }}
+                <div class="project-details-item">
+                    <p>
+                        <strong>Technologies:</strong>
+                        {{ delimit .Params.technologies ", " }}
+                    </p>
+                </div>
+            {{ end }}
+        </div>
+        <h1 style="color: black; font-family: merriweather; font-size: 26px; line-height: 1.7em; margin-top: 20px;">{{ .Description }}</h1>
+        <div class="project-links">
+            {{ $baseUrl := .Site.BaseURL }}
+            {{ range $element := .Params.button_links }}
+            <div class="link-div">
+                <a href="{{ $element.link }}" target="blank" class="project-detail-link">
+                    <img src="{{ $baseUrl }}svg/{{ $element.img }}" class="project-detail-link-img" />
+                    {{ $element.text }}
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
