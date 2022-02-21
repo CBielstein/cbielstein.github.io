@@ -16,6 +16,7 @@ disableKinds = ["taxonomy", "term"]
     github = "CBielstein"
     googlescholar = "https://scholar.google.com/citations?user=BNIbkwMAAAAJ&hl=en"
     stackoverflow = "https://stackoverflow.com/users/1676364/cameron-bielstein"
+    nuget = "https://www.nuget.org/profiles/CBielstein"
 
 [params.nav]
     enable = true

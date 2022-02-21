@@ -50,6 +50,9 @@ theme = "hugo-lodi-theme"
     # stackoverflow.com URL
     # stackoverflow = ""
 
+    # nuget.org profile URL
+    # nuget = ""
+
 [params.nav]
     enable = true
 
