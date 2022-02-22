@@ -622,6 +622,7 @@ ul.cloud li {
   --size: 4;
   font-size: calc(var(--size) * 0.3rem + 0.3rem);
   color: #006d00;
+  opacity: calc((15 - (9 - var(--size))) / 15);
   display: block;
   font-family: Roboto;
   padding: 0.125rem 0.25rem;
