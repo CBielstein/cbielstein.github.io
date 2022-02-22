@@ -145,6 +145,7 @@ section {
 }
 
 .specialties,
+.skills,
 .projects {
   max-width: 1000px;
   display: -webkit-box;
@@ -235,15 +236,18 @@ section {
   line-height: 0.4em;
 }
 
+.skills-item,
 .specialties-item {
   max-width: 450px;
   padding-top: 20px;
 }
 
+.skills-item,
 .specialties-item h3 {
   margin-left: 15px;
 }
 
+.skills-wrapper,
 .specialties-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,6 +310,7 @@ section {
   margin-top: 45px;
 }
 
+.skills-item h4,
 .project-item h4 {
   font-size: 26px;
   font-weight: 300;
@@ -591,4 +596,36 @@ section {
   color: #006d00 !important;
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid #006d00;
+}
+
+ul.cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5rem;
+}
+
+ul.cloud li[data-weight="1"] { --size: 1; }
+ul.cloud li[data-weight="2"] { --size: 2; }
+ul.cloud li[data-weight="3"] { --size: 3; }
+ul.cloud li[data-weight="4"] { --size: 4; }
+ul.cloud li[data-weight="5"] { --size: 5; }
+ul.cloud li[data-weight="6"] { --size: 6; }
+ul.cloud li[data-weight="7"] { --size: 7; }
+ul.cloud li[data-weight="8"] { --size: 8; }
+ul.cloud li[data-weight="9"] { --size: 9; }
+
+ul.cloud li {
+  --size: 4;
+  font-size: calc(var(--size) * 0.3rem + 0.3rem);
+  color: #006d00;
+  opacity: calc((15 - (9 - var(--size))) / 15);
+  display: block;
+  font-family: Roboto;
+  padding: 0.125rem 0.25rem;
+  text-decoration: none;
+  position: relative;
 }
