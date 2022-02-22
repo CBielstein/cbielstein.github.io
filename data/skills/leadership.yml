@@ -1,17 +1,17 @@
 weight: 4
 title: "Leadership"
 items:
+  - name: "Recruiting"
+    weight: 2
   - name: "Mentorship"
     weight: 9
   - name: "Teaching"
     weight: 4
-  - name: "Recruiting"
-    weight: 2
   - name: "Interviews"
     weight: 6
-  - name: "Scrum champion"
-    weight: 4
   - name: "Presenting"
     weight: 1
+  - name: "Scrum champion"
+    weight: 4
   - name: "Planning"
     weight: 3
