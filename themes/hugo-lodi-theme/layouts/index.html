@@ -3,7 +3,7 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body>
+    <body onload="ShuffleClouds()">
         <div>
             {{ if .Site.Params.nav.enable }}
             {{ partial "nav.html" . }}
@@ -19,6 +19,10 @@
 
             {{ if .Site.Params.projects.enable }}
             {{ partial "projects.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.skills.enable }}
+            {{ partial "skills.html" . }}
             {{ end }}
 
             {{ if .Site.Params.footer.enable }}

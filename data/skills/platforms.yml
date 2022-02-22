@@ -1,0 +1,21 @@
+weight: 3
+title: "Platforms"
+items:
+  - name: ".NET"
+    weight: 9
+  - name: "AWS"
+    weight: 7
+  - name: "Linux"
+    weight: 1
+  - name: "Azure"
+    weight: 5
+  - name: "Windows"
+    weight: 2
+  - name: "Node.js"
+    weight: 7
+  - name: "Arduino"
+    weight: 6
+  - name: "Linode"
+    weight: 1
+  - name: "GitHub Actions"
+    weight: 5

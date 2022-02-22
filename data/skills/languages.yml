@@ -1,0 +1,27 @@
+weight: 1
+title: "Languages"
+items:
+  - name: "Bash"
+    weight: 2
+  - name: "C#"
+    weight: 9
+  - name: "C++"
+    weight: 7
+  - name: "Python"
+    weight: 5
+  - name: "SQL"
+    weight: 6
+  - name: "Ruby"
+    weight: 3
+  - name: "TypeScript"
+    weight: 8
+  - name: "Batch"
+    weight: 4
+  - name: "PowerShell"
+    weight: 2
+  - name: "PHP"
+    weight: 1
+  - name: "LabVIEW"
+    weight: 1
+  - name: "HTML/CSS"
+    weight: 1

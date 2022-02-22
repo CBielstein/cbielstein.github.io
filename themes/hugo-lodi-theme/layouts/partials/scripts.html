@@ -16,4 +16,29 @@
             easing: 'ease-in-out'
         });
     });
+
+    // Returns an array of [0, 1, ..., length], shuffled
+    function RandomRange(length) {
+        var arr = new Array(length);
+        for (let i = 0; i < length; ++i) {
+            arr[i] = i;
+        }
+        return arr.sort(function(a, b){return 0.5 - Math.random()});
+    }
+
+    // Shuffle the word clouds
+    function ShuffleClouds() {
+        var clouds = document.getElementsByClassName("cloud");
+        for (let i = 0; i < clouds.length; ++i) {
+            var numChildren = clouds[i].children.length;
+            var listItems = new Array(numChildren);
+            var indices = RandomRange(numChildren);
+
+            for (let j = 0; j < numChildren; ++j) {
+                listItems[j] = clouds[i].children[indices[j]].outerHTML;
+            }
+
+            clouds[i].innerHTML = listItems.join('\n');
+        }
+    }
 </script>

@@ -12,6 +12,10 @@
         {{ if .Site.Params.projects.enable }}
         <a href="#" class="main-navigation-link" data-scroll-goto="2">{{ .Site.Params.projects.title }}</a>
         {{ end }}
+
+        {{ if .Site.Params.skills.enable }}
+        <a href="#" class="main-navigation-link" data-scroll-goto="3">{{ .Site.Params.skills.title }}</a>
+        {{ end }}
         
     </div>
 </nav>

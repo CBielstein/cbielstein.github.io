@@ -85,5 +85,10 @@ theme = "hugo-lodi-theme"
     title = "Projects"
     subtitle = "Open Source and Personal Projects"
 
+[params.skills]
+    enable = true
+    title = "Skills"
+    subtitle = ""
+
 [params.footer]
     enable = true
