@@ -17,3 +17,5 @@ items:
     weight: 1
   - name: "Arduino"
     weight: 6
+  - name: "GitHub Actions"
+    weight: 5

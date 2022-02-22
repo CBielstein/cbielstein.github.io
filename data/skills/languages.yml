@@ -23,3 +23,5 @@ items:
     weight: 1
   - name: "LabVIEW"
     weight: 1
+  - name: "HTML/CSS"
+    weight: 1

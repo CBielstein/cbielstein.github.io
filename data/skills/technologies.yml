@@ -6,12 +6,14 @@ items:
   - name: "GraphQL"
     weight: 9
   - name: "OpenAPI"
-    weight: 4
+    weight: 1
   - name: "REST APIs"
-    weight: 7
+    weight: 5
   - name: "PostgreSQL"
     weight: 6
   - name: "No-SQL DB"
-    weight: 3
-
-
+    weight: 2
+  - name: "git"
+    weight: 4
+  - name: "CI/CD"
+    weight: 7
