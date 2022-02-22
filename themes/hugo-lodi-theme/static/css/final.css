@@ -620,7 +620,7 @@ ul.cloud li[data-weight="9"] { --size: 9; }
 
 ul.cloud li {
   --size: 4;
-  font-size: calc(var(--size) * 0.4rem + 0.3rem);
+  font-size: calc(var(--size) * 0.3rem + 0.3rem);
   color: #006d00;
   display: block;
   font-family: Roboto;
