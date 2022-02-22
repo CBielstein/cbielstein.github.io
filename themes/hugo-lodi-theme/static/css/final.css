@@ -145,6 +145,7 @@ section {
 }
 
 .specialties,
+.skills,
 .projects {
   max-width: 1000px;
   display: -webkit-box;
@@ -235,15 +236,18 @@ section {
   line-height: 0.4em;
 }
 
+.skills-item,
 .specialties-item {
   max-width: 450px;
   padding-top: 20px;
 }
 
+.skills-item,
 .specialties-item h3 {
   margin-left: 15px;
 }
 
+.skills-wrapper,
 .specialties-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,6 +310,7 @@ section {
   margin-top: 45px;
 }
 
+.skills-item h4,
 .project-item h4 {
   font-size: 26px;
   font-weight: 300;

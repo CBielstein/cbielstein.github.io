@@ -1,0 +1,12 @@
+weight: 1
+title: "Languages"
+items:
+  - name: "C#"
+  - name: "C++"
+  - name: "TypeScript"
+  - name: "Python"
+  - name: "SQL"
+  - name: "Ruby"
+  - name: "Bash"
+  - name: "Batch"
+  - name: "PowerShell"
