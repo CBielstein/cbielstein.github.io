@@ -1,0 +1,17 @@
+weight: 2
+title: "Technologies"
+items:
+  - name: "docker"
+    weight: 4
+  - name: "GraphQL"
+    weight: 9
+  - name: "OpenAPI"
+    weight: 4
+  - name: "REST APIs"
+    weight: 7
+  - name: "PostgreSQL"
+    weight: 6
+  - name: "No-SQL DB"
+    weight: 3
+
+
