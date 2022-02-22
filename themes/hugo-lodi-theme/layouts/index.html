@@ -3,7 +3,7 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body>
+    <body onload="ShuffleClouds()">
         <div>
             {{ if .Site.Params.nav.enable }}
             {{ partial "nav.html" . }}
