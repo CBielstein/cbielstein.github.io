@@ -8,9 +8,9 @@
             {{ range $element := sort .Site.Data.skills "weight" }}
             <div class="skills-item">
                 <h4>{{ $element.title }}</h4>
-                <ul>
+                <ul class="cloud">
                     {{ range $item := $element.items }}
-                    <li>{{ $item.name }}</li>
+                    <li data-weight="{{ $item.weight }}">{{ $item.name }}</li>
                     {{ end }}
                 </ul>
             </div>

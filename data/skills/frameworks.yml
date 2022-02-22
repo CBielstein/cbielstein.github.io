@@ -2,10 +2,16 @@ weight: 2
 title: "Platforms and Frameworks"
 items:
   - name: ".NET"
+    weight: 5
   - name: "Node.js"
-  - name: "win32"
+    weight: 3
   - name: "docker"
+    weight: 4
   - name: "AWS"
+    weight: 4
   - name: "Azure"
+    weight: 3
   - name: "Linux"
+    weight: 2
   - name: "Windows"
+    weight: 2
