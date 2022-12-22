@@ -53,6 +53,9 @@ theme = "hugo-lodi-theme"
     # nuget.org profile URL
     # nuget = ""
 
+    # Mastodon profile URL
+    # mastodon = ""
+
 [params.nav]
     enable = true
 
