@@ -22,3 +22,9 @@ To create, size, and color a new icon for links used on this site, use the follo
 1. Open with VS Code and copy the XML
 1. Put in places where needed (e.g. `hero.html`, `footer.html`, etc.)
 1. Set height and width, remove additional unnecessary bits (inkscape saves a lot of metadata we don't need here)
+
+## Analytics Reporting
+
+Visitor analytics reporting is handled by [Plausible.io](https://plausible.io).
+A script is added during deployment to report analytics data to them.
+When forking this repository, please remove or update [deploy/plausible.html](deploy/plausible.html).
