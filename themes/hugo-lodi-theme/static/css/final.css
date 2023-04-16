@@ -146,7 +146,8 @@ section {
 
 .specialties,
 .skills,
-.projects {
+.projects,
+.timeline-page {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,6 +346,7 @@ section {
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   border-radius: 2px;
+  background: white;
 }
 
 .main-project {
