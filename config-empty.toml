@@ -97,6 +97,8 @@ theme = "hugo-lodi-theme"
     enable = true
     title = "Career Timeline"
     subtitle = ""
+    index_timeline_limit = 5 # Max number of timeline items to show on index
+    timeline_limit = 10000 # Max number of timeline items to show on dedicated timeline page
 
 [params.footer]
     enable = true

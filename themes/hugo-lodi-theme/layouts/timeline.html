@@ -8,7 +8,7 @@
             {{ partial "nav.html" . }}
             {{ end }}
 
-            {{ partial "timeline.html" . }}
+            {{ partial "timeline.html" (dict "context" . "LIMIT" .site.Params.timeline.timeline_count "ON_INDEX" false)}}
 
             {{ if .Site.Params.footer.enable }}
             {{ partial "footer.html" . }}

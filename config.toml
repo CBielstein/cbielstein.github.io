@@ -51,6 +51,8 @@ disableKinds = ["taxonomy", "term"]
     enable = true
     title = "Timeline"
     subtitle = "Career Timeline"
+    index_timeline_limit = 5
+    timeline_limit = 10000
 
 [params.footer]
     enable = true
