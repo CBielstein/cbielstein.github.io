@@ -3,6 +3,7 @@ title: "Cameron Bielstein | UbiPAL"
 date: 2021-06-14T22:14:46-07:00
 draft: false
 weight: 0
+type: project
 project_title: "UbiPAL"
 project_short_title: "UbiPAL"
 project_subtitle: "Secure IoT platform"
