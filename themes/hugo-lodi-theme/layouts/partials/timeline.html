@@ -5,6 +5,7 @@
             <h2 class="subtitle">{{ .context.Site.Params.timeline.Subtitle }}</h2>
         </div>
 
+        <!-- Heavily based on https://www.w3schools.com/howto/howto_css_timeline.asp -->
         <div class="timeline">
             {{ range $index, $element := first .LIMIT .context.Site.Data.timeline }}
             <div class="timeline-container {{ if mod $index 2 }} left {{ else }} right {{ end }}">
