@@ -47,5 +47,10 @@ disableKinds = ["taxonomy", "term"]
     title = "Skills"
     subtitle = ""
 
+[params.timeline]
+    enable = true
+    title = "Timeline"
+    subtitle = "Career Timeline"
+
 [params.footer]
     enable = true

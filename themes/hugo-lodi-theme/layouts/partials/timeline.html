@@ -1,0 +1,18 @@
+<section data-scroll-index="4">
+    <div class="timeline">
+        <div class="header">
+            <h1 class="title">{{ .Site.Params.timeline.Title }}</h1>
+            <h2 class="subtitle">{{ .Site.Params.timeline.Subtitle }}</h2>
+        </div>
+
+        <div class="timeline-wrapper">
+
+            {{ range $element := .Site.Data.timeline }}
+            <div class="timeline-item">
+                <h4>{{ $element.date }}</h4>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+</section>

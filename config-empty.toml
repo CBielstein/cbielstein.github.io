@@ -93,5 +93,10 @@ theme = "hugo-lodi-theme"
     title = "Skills"
     subtitle = ""
 
+[params.timeline]
+    enable = true
+    title = "Career Timeline"
+    subtitle = ""
+
 [params.footer]
     enable = true
