@@ -8,22 +8,28 @@
         <!-- Heavily based on https://www.w3schools.com/howto/howto_css_timeline.asp -->
         <div class="timeline">
             {{ range $index, $element := first .LIMIT .context.Site.Data.timeline }}
-            <div class="timeline-container {{ if mod $index 2 }} left {{ else }} right {{ end }}">
-                <div class="timeline-content">
-                    <b>{{ $element.date }}</b>
-                    <p>{{ $element.update }}</p>
-                    {{ if or $element.role $element.company }}
-                    <p><i>{{ if $element.role }} {{ $element.role }} {{ end }} {{ if and $element.role $element.company }} at {{ end }} {{ if $element.company }} {{ $element.company }} {{ end }}</i></p>
-                    {{ end }}
-                    {{ if $element.links }}
-                    <ul>
-                        {{ range $link := $element.links }}
-                        <li><a href="{{ $link.url }}" target="_blank">{{ $link.display }}</a></li>
+                {{ if $element.year }}
+                <span class="timeline-year">
+                    <h1>{{ $element.year }}</h1>
+                </span>
+                {{ else }}
+                <div class="timeline-container {{ if mod $index 2 }} left {{ else }} right {{ end }}">
+                    <div class="timeline-content">
+                        <b>{{ $element.date }}</b>
+                        <p>{{ $element.update }}</p>
+                        {{ if or $element.role $element.company }}
+                        <p><i>{{ if $element.role }} {{ $element.role }} {{ end }} {{ if and $element.role $element.company }} at {{ end }} {{ if $element.company }} {{ $element.company }} {{ end }}</i></p>
                         {{ end }}
-                    {{ end }}
-                    </ul>
+                        {{ if $element.links }}
+                        <ul>
+                            {{ range $link := $element.links }}
+                            <li><a href="{{ $link.url }}" target="_blank">{{ $link.display }}</a></li>
+                            {{ end }}
+                        {{ end }}
+                        </ul>
+                    </div>
                 </div>
-            </div>
+                {{ end }}
             {{ end }}
         </div>
 

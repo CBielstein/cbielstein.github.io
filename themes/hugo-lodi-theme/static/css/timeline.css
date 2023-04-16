@@ -82,6 +82,15 @@
   left: -16px;
 }
 
+/* Year markers */
+.timeline-year {
+  font-size:xx-large;
+  position:relative;
+  text-align:right;
+  z-index:100;
+  color: #777777;
+}
+
 /* The actual content */
 .timeline-content {
   padding: 10px 20px;
