@@ -12,8 +12,15 @@
                     <b>{{ $element.date }}</b>
                     <p>{{ $element.update }}</p>
                     {{ if or $element.role $element.company }}
-                    <i>{{ if $element.role }} {{ $element.role }} {{ end }} {{ if and $element.role $element.company }} at {{ end }} {{ if $element.company }} {{ $element.company }} {{ end }}</i>
+                    <p><i>{{ if $element.role }} {{ $element.role }} {{ end }} {{ if and $element.role $element.company }} at {{ end }} {{ if $element.company }} {{ $element.company }} {{ end }}</i></p>
                     {{ end }}
+                    {{ if $element.links }}
+                    <ul>
+                        {{ range $link := $element.links }}
+                        <li><a href="{{ $link.url }}" target="_blank">{{ $link.display }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                    </ul>
                 </div>
             </div>
             {{ end }}
