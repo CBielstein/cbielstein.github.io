@@ -6,8 +6,8 @@
         </div>
 
         <div class="timeline">
-            {{ range $element := first .LIMIT .context.Site.Data.timeline }}
-            <div class="timeline-container left">
+            {{ range $index, $element := first .LIMIT .context.Site.Data.timeline }}
+            <div class="timeline-container {{ if mod $index 2 }} left {{ else }} right {{ end }}">
                 <div class="timeline-content">
                     <b>{{ $element.date }}</b>
                     <p>{{ $element.update }}</p>
