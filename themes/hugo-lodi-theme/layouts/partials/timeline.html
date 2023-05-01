@@ -7,13 +7,20 @@
 
         <!-- Heavily based on https://www.w3schools.com/howto/howto_css_timeline.asp -->
         <div class="timeline">
+            {{ $pageData := newScratch }}
+            {{ $pageData.Set "nonYearEntries" 0 }}
             {{ range $index, $element := first .LIMIT .context.Site.Data.timeline }}
                 {{ if $element.year }}
                 <span class="timeline-year">
                     <h1>{{ $element.year }}</h1>
                 </span>
                 {{ else }}
-                <div class="timeline-container {{ if mod $index 2 }} left {{ else }} right {{ end }}">
+                    {{ $pageData.Add "nonYearEntries" 1 }}
+                    {{ if mod ($pageData.Get "nonYearEntries") 2 }}
+                    <div class="timeline-container left">
+                    {{ else }}
+                    <div class="timeline-container right">
+                    {{ end }}
                     <div class="timeline-content">
                         <h3>{{ $element.date }}</h3>
                         <b>{{ $element.update }}</b>
