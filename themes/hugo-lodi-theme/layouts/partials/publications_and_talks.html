@@ -1,0 +1,34 @@
+<section data-scroll-index="4">
+    <div class="publications-and-talks-page">
+        <div class="header">
+            <h1 class="title">{{ .context.Site.Params.publications_and_talks.Title }}</h1>
+            <h2 class="subtitle">{{ .context.Site.Params.publications_and_talks.Subtitle }}</h2>
+        </div>
+
+        <div class="publications-and-talks">
+            <ul>
+            {{ range $index, $element := first .LIMIT .context.Site.Data.publications_and_talks }}
+                <li>
+                {{ if eq $element.type "talk" }}
+                    {{ $element.title }} at conference {{ $element.venue }} in {{ $element.date }}
+                {{ else if eq $element.type "publication" }}
+                    {{ $element.title }} in {{ $element.venue }} in {{ $element.date }}
+                {{ else }}
+                    {{ errorf "Unsupported talk or publication type %s" $element.type }}
+                {{ end }}
+                
+                (
+                {{ range $link := $element.links }}
+                <a href="{{ $link.url }}">{{ $link.display }},</a>
+                {{ end }}
+                )
+                </li>
+            {{ end }}
+            </ul>
+        </div>
+
+        {{ if .ON_INDEX }}
+        <a href="{{ .URL }}publications-and-talks" class="read-more">View All</a>
+        {{ end }}
+    </div>
+</section>

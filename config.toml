@@ -47,6 +47,13 @@ disableKinds = ["taxonomy", "term"]
     title = "Skills"
     subtitle = ""
 
+[params.publications_and_talks]
+    enable = true
+    title = "Publications and Talks"
+    subtitle = ""
+    index_limit = 5
+    limit = 10000
+
 [params.timeline]
     enable = true
     title = "Timeline"
