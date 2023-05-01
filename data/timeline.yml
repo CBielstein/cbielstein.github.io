@@ -1,0 +1,195 @@
+- date: January 2023
+  update: Transferred to Lead Engineer for internal data platforms and tools
+  company: Allen Institute for Brain Science
+  role: Lead Engineer
+- year: 2023
+- date: August 2022
+  update: Became Lead Engineer for APIs powering public apps
+  company: Allen Institute for Brain Science
+  role: Lead Engineer
+- date: Summer 2022
+  update: Managed and mentored summer intern
+  company: Allen Institute for Brain Science
+  role: Intern Manager
+- date: Spring 2022
+  update: Lead Backend Engineer for Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)
+  company: Allen Institute for Brain Science
+  role: Lead Engineer
+  links:
+    - display: SEA-AD Home Page
+      url: http://sea-ad.org
+    - display: Press Release
+      url: https://alleninstitute.org/news/cell-by-cell-scientists-are-building-a-high-resolution-map-of-brain-changes-in-alzheimers-disease/
+    - display: NPR News Story
+      url: https://www.npr.org/sections/health-shots/2022/08/01/1113825311/alzheimers-researchers-are-looking-beyond-plaques-and-tangles-for-new-treatments
+- date: February 2022
+  update: Initial release (v0.1.0) of APRS# nuget packages
+  links:
+    - display: APRS# on Nuget
+      url: https://www.nuget.org/packages?q=aprssharp
+    - display: APRS# v0.1.0 on GitHub
+      url: https://github.com/CBielstein/APRSsharp/releases/tag/v0.1.0
+- year: 2022
+- date: "July 2021"
+  update: Launched Allen Brain Map Specimen Explorer
+  company: Allen Institute for Brain Science
+  role: Software Engineer III
+  links:
+    - display: Specimen Explorer Web App
+      url: https://knowledge.brain-map.org/data/1HEYEW7GMUKWIQW37BO/specimens
+- year: 2021
+- date: December 2020
+  update: Delivered large feature matrix processing ETL in collaboration with AWS
+  company: Allen Institute for Brain Science
+  role: Software Engineer III
+  links:
+    - display: AWS Blog Post
+      url: https://aws.amazon.com/blogs/big-data/how-the-allen-institute-uses-amazon-emr-and-aws-step-functions-to-process-extremely-wide-transcriptomic-datasets/
+- date: November 2020
+  update: Conference talk at SeaGL 2020
+  links:
+    - display: "Building Free CI/CD with GitHub Actions"
+      url: https://seagl.org/archive/2020/building-free-ci-cd-with-github-actions
+- date: October 2020
+  update: Implemented custom Chrome browser plugin and daemon for file access/manipulation.
+  company: Bielstein IT
+  role: Contract Software Engineer
+- date: Summer 2020
+  update: Mentor for student missing internship experience due to the COVID-19 pandemic. Open-sourced APRS# for the project.
+  company: InternLink 2020
+  role: Project Mentor
+  links:
+    - display: InternLink on LinkedIn
+      url: https://www.linkedin.com/company/internlink20/about/
+    - display: APRS# on GitHub
+      url: https://github.com/CBielstein/APRSsharp/
+- year: 2020
+- date: December 2019
+  update: Joined the Allen Institute
+  company: Allen Institute for Brain Science
+  role: Software Engineer III
+- date: Summer 2019
+  update: Ran new hire on-boarding for Azure IoT - Digital Twins team
+  company: Microsoft - Azure IoT
+  role: Software Engineer
+- date: June 2019
+  update: Implemented new POCSAG pager encoder for Burning Man Festival
+  company: Bielstein IT
+  role: Contract Software Engineer
+- year: 2019
+- date: October 2018
+  update: Azure Digital Twins public preview released
+  company: Microsoft - Azure IoT
+  role: Software Engineer
+  links:
+    - display: Release Announcement
+      url: https://azure.microsoft.com/en-us/blog/announcing-the-public-preview-of-azure-digital-twins/
+- date: Summer 2018
+  update: Mentored summer intern on Azure Digital Twins team
+  company: Microsoft - Azure IoT
+  role: Intern Mentor
+- date: April 2018
+  update: Switched from systems to cloud engineering on Azure Digital Twins
+  company: Microsoft - Azure IoT
+  role: Software Engineer
+- year: 2018
+- date: October 2017
+  update: Windows 10 Fall Creators Update released. Contributed additional new features-on-demand for virtual reality headsets and OpenSSH in Windows.
+  company: Microsoft - Windows
+  role: Software Engineer
+  links:
+    - display: Guide to Mixed Reality
+      url: https://learn.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/mixed-reality-software
+    - display: Install OpenSSH on Windows
+      url: https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-for-windows
+- date: Summer 2017
+  update: Mentored summer intern on Windows Deployment team
+  company: Microsoft - Windows
+  role: Intern Mentor
+- date: April 2017
+  update: Windows 10 Creators Update releases. My contributions focus on features-on-demand support for Braille displays and complete uninstall of Internet Explorer 11
+  company: Microsoft
+  role: Software Engineer
+  links:
+    - display: Using Narrator with Braille
+      url: https://support.microsoft.com/en-us/windows/chapter-8-using-narrator-with-braille-3e5f065b-1c9d-6eb2-ec6d-1d07c9e94b20
+    - display: Internet Explorer FOD Documentation
+      url: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod?view=windows-10#internet-explorer
+- year: 2017
+- date: September 2016
+  update: FCC "General Class" amateur radio license
+- date: July 2016
+  update: Windows 10 Mobile Anniversary Update releases featuring my rework of upgrade progress bar
+  company: Microsoft
+  role: Software Engineer
+- date: Spring 2016
+  update: Mentor high school CS students (next four years)
+  company: Hunt the Wumpus Project
+  role: Organizer / Mentor
+  links:
+    - display: School District Article Coverage (2019 Semester)
+      url: https://www.lwsd.org/programs-and-services/communications/news/news-details/~board/high-schools/post/lwsd-teams-compete-in-microsofts-hunt-the-wumpus-game-design-competition
+- year: 2016
+- date: August 2015
+  update: Joined Microsoft's Windows Deployment team
+  company: Microsoft
+  role: Software Engineer
+- date: May 2015
+  update: Graduated with master's, bachelor's, and associate's of computer science
+  company: The University of Texas at Austin & Austin Community College
+  role: Graduate
+- date: May 2015
+  update: "Completed master's thesis"
+  company: The University of Texas at Austin
+  role: Master's Student
+  links:
+    - display: UbiPAL Project Page
+      url: https://bielstein.dev/ubipal/
+- date: March 2015
+  update: FCC "Technician Class" amateur radio license
+- year: 2015
+- date: Summer 2014
+  update: Internship building Windows 10 ability to use external storage for upgrades
+  company: Microsoft
+  role: Software Development Engineer Intern
+  links:
+    - display: Feature Documentation
+      url: https://support.microsoft.com/en-us/windows/free-up-space-for-windows-updates-429b12ba-f514-be0b-4924-ca6d16fa1d65
+- year: 2014
+- date: August 2013
+  update: Began master's courses and thesis
+  company: The University of Texas at Austin
+  role: Graduate Student
+- date: Fall 2013
+  update: Internship building LabVIEW, a native Windows app
+  company: National Instruments (NI)
+  role: Software Engineering Intern
+- year: 2013
+- date: Summer 2012
+  update: Internship working on build systems and web apps
+  company: StapStream Media
+  role: Software Engineering Intern
+- date: Spring 2012
+  update: Joined autonomous vehicles research lab
+  company: The University of Texas at Austin
+  role: Undergraduate Researcher
+- year: 2012
+- date: Fall 2011
+  update: Transferred to UT Austin
+  company: The University of Texas at Austin
+  role: Student
+- date: Spring 2011
+  update: Began studying computer science
+  company: Austin Community College
+  role: Student
+- year: 2011
+- year: 2010
+- date: Fall 2009
+  update: Began college coursework
+  company: Austin Community College
+  role: Student
+- date: March 2009
+  update: Began work as an IT and networking technician
+  company: Bielstein IT
+  role: Technician
+- year: 2009
