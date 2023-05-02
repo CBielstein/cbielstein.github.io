@@ -147,7 +147,8 @@ section {
 .specialties,
 .skills,
 .projects,
-.timeline-page {
+.timeline-page,
+.publications-and-talks-page {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;

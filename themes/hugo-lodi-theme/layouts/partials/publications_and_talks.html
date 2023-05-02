@@ -27,7 +27,7 @@
             </ul>
         </div>
 
-        {{ if .ON_INDEX }}
+        {{ if and (.ON_INDEX) (gt (len .context.Site.Data.publications_and_talks) .LIMIT) }}
         <a href="{{ .URL }}publications-and-talks" class="read-more">View All</a>
         {{ end }}
     </div>
