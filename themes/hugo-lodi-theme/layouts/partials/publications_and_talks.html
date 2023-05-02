@@ -8,21 +8,13 @@
         <div class="publications-and-talks">
             <ul>
             {{ range $index, $element := first .LIMIT .context.Site.Data.publications_and_talks }}
-                <li>
                 {{ if eq $element.type "talk" }}
-                    {{ $element.title }} at conference {{ $element.venue }} in {{ $element.date }}
+                    {{ partial "talk.html" (dict "context" . "element" $element)}}
                 {{ else if eq $element.type "publication" }}
-                    {{ $element.title }} in {{ $element.venue }} in {{ $element.date }}
+                    {{ partial "publication.html" (dict "context" . "element" $element)}}
                 {{ else }}
                     {{ errorf "Unsupported talk or publication type %s" $element.type }}
                 {{ end }}
-                
-                (
-                {{ range $link := $element.links }}
-                <a href="{{ $link.url }}">{{ $link.display }},</a>
-                {{ end }}
-                )
-                </li>
             {{ end }}
             </ul>
         </div>

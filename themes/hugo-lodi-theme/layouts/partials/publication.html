@@ -1,0 +1,9 @@
+<div class="publication">
+    <i>{{ .element.title }}</i> in <i>{{ .element.venue }}</i>
+    {{ .element.date }}
+    (
+    {{ range $link := .element.links }}
+        <span><a href="{{ $link.url }}">{{ $link.display }}</a></span>
+    {{ end }}
+    )
+</div>

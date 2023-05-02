@@ -1,0 +1,9 @@
+<div class="talk">
+    <i>{{ .element.title }}</i> at <i>{{ .element.venue }}</i>
+    {{ .element.date }}
+    (
+    {{ range $link := .element.links }}
+        <span><a href="{{ $link.url }}">{{ $link.display }}</a></span>
+    {{ end }}
+    )
+</div>
