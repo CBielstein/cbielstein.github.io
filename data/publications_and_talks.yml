@@ -1,3 +1,10 @@
+- date: December 2020
+  type: talk
+  title: "Integrated Data Framework"
+  venue: Allen Institute Showcase Symposium 2020
+  links:
+    - display: YouTube
+      url: https://www.youtube.com/live/uFtG-i-4RBI?feature=share&t=5373
 - date: November 2020
   type: talk
   title: Building Free CI/CD with GitHub Actions
