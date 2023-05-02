@@ -1,10 +1,10 @@
 <div class="talk communication">
-    <div class="icon-div"><img class="icon" src="{{.context.Site.baseUrl}}/svg/microphone.svg"></img></div>
+    <div class="icon-div"><img class="icon" src="{{ .context.Site.baseUrl }}/svg/microphone.svg"></img></div>
     <div class="primary"><b>{{ .element.title }}</b></div>
     <div class="secondary">{{ .element.date }} at <i>{{ .element.venue }}</i></div>
     <div class="tertiary">
         {{ range $link := .element.links }}
-            <span class="link"><a href="{{ $link.url }}">{{ $link.display }}</a></span>
+            <span class="link"><a href="{{ $link.url }}" target="_blank">{{ $link.display }}</a></span>
         {{ end }}
     </div>
 </div>

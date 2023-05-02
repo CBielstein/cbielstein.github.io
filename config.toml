@@ -37,6 +37,13 @@ disableKinds = ["taxonomy", "term"]
     title = "Specialties"
     subtitle = "Areas of Experience"
 
+[params.products]
+    enable = true
+    title = "Products"
+    subtitle = "Professional Product Contributions"
+    index_limit = 9
+    limit = 10000
+
 [params.projects]
     enable = true
     title = "Projects"
