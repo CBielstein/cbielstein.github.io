@@ -1,5 +1,5 @@
 ---
 layout: publications_and_talks
-title: Cameron Bielstein | Publications and Talks
+title: Cameron Bielstein | Professional Communication
 type: standalone
 ---

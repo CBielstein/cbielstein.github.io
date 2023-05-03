@@ -169,6 +169,7 @@ section {
   font-size: 28px;
   color: #006d00;
   font-weight: 300;
+  margin-top: 0em;
 }
 
 .hero-left {
@@ -235,7 +236,7 @@ section {
   font-size: 44px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 0.4em;
+  min-height: 0.4em;
 }
 
 .skills-item,
