@@ -25,6 +25,10 @@
             {{ partial "skills.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.timeline.enable }}
+            {{ partial "timeline.html" (dict "context" . "LIMIT" .Site.Params.timeline.index_timeline_limit "ON_INDEX" true)}}
+            {{ end }}
+
             {{ if .Site.Params.footer.enable }}
             {{ partial "footer.html" . }}
             {{ end }}

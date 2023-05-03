@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "head_project.html" . }}
+    </head>
+        <div>
+            {{ partial "nav_empty.html" . }}
+
+            {{ partial "timeline.html" (dict "context" . "LIMIT" .Site.Params.timeline.timeline_limit "ON_INDEX" false)}}
+
+            {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" . }}
+            {{ end }}
+        </div>
+    </body>
+</html>

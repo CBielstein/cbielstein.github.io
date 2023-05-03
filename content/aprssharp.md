@@ -3,6 +3,7 @@ title: "Cameron Bielstein | APRS#"
 date: 2021-06-14T23:09:52-07:00
 draft: false
 weight: 1
+type: project
 project_title: "APRS#"
 project_short_title: "APRS#"
 project_subtitle: "Digital packet radio encoder/decoder"

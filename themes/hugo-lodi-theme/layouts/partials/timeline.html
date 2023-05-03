@@ -1,0 +1,47 @@
+<section data-scroll-index="4">
+    <div class="timeline-page">
+        <div class="header">
+            <h1 class="title">{{ .context.Site.Params.timeline.Title }}</h1>
+            <h2 class="subtitle">{{ .context.Site.Params.timeline.Subtitle }}</h2>
+        </div>
+
+        <!-- Heavily based on https://www.w3schools.com/howto/howto_css_timeline.asp -->
+        <div class="timeline">
+            {{ $pageData := newScratch }}
+            {{ $pageData.Set "nonYearEntries" 0 }}
+            {{ range $index, $element := first .LIMIT .context.Site.Data.timeline }}
+                {{ if $element.year }}
+                <span class="timeline-year">
+                    <h1>{{ $element.year }}</h1>
+                </span>
+                {{ else }}
+                    {{ $pageData.Add "nonYearEntries" 1 }}
+                    {{ if mod ($pageData.Get "nonYearEntries") 2 }}
+                    <div class="timeline-container left">
+                    {{ else }}
+                    <div class="timeline-container right">
+                    {{ end }}
+                    <div class="timeline-content">
+                        <h3>{{ $element.date }}</h3>
+                        <b>{{ $element.update }}</b>
+                        {{ if $element.links }}
+                        <ul>
+                            {{ range $link := $element.links }}
+                            <li><a href="{{ $link.url }}" target="_blank">{{ $link.display }}</a></li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                        {{ if or $element.role $element.company }}
+                        <p><i>{{ if $element.role }} {{ $element.role }} {{ end }} {{ if and $element.role $element.company }} at {{ end }} {{ if $element.company }} {{ $element.company }} {{ end }}</i></p>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            {{ end }}
+        </div>
+
+        {{ if .ON_INDEX }}
+        <a href="{{ .URL }}timeline" class="read-more">Full Timeline</a>
+        {{ end }}
+    </div>
+</section>

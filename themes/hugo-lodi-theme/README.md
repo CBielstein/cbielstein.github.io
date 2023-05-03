@@ -116,6 +116,20 @@ draft: false
 
 ```
 
+## Timeline
+
+A professional timeline can be added as a YAML file at `data/timeline.yml`. The format of that file should be added as follows:
+
+```yaml
+- date: # Date to display on the timeline for this entry
+  update: # Text of the timeline entry, the "what" of this point on the timeline
+  company: # Optionally, the company related to this update
+  role: # Optionally, the role filled for the company
+  links: # Optional list of links
+    - display: # Display text of the link
+      url: # URL of the linke
+```
+
 ## Credits
 
 Credits for this theme goes fully to Alexis Collado, UX design lodi and cofounder of the User Experience Society. More werpa to you.
