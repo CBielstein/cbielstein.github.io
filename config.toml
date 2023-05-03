@@ -47,7 +47,7 @@ disableKinds = ["taxonomy", "term"]
     title = "Skills"
     subtitle = ""
 
-[params.publications_and_talks]
+[params.professional_communication]
     enable = true
     title = "Professional Communication"
     subtitle = "Talks and Publications"

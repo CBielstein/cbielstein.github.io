@@ -6,7 +6,7 @@
         <div>
             {{ partial "nav_empty.html" . }}
 
-            {{ partial "publications_and_talks.html" (dict "context" . "LIMIT" .Site.Params.publications_and_talks.limit "ON_INDEX" false)}}
+            {{ partial "professional_communication.html" (dict "context" . "LIMIT" .Site.Params.professional_communication.limit "ON_INDEX" false)}}
 
             {{ if .Site.Params.footer.enable }}
             {{ partial "footer.html" . }}

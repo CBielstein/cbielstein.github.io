@@ -1,12 +1,12 @@
 <section data-scroll-index="4">
-    <div class="publications-and-talks-page">
+    <div class="professional-communication-page">
         <div class="header">
-            <h1 class="title">{{ .context.Site.Params.publications_and_talks.Title }}</h1>
-            <h2 class="subtitle">{{ .context.Site.Params.publications_and_talks.Subtitle }}</h2>
+            <h1 class="title">{{ .context.Site.Params.professional_communication.Title }}</h1>
+            <h2 class="subtitle">{{ .context.Site.Params.professional_communication.Subtitle }}</h2>
         </div>
 
-        <div class="publications-and-talks">
-            {{ range $index, $element := first .LIMIT .context.Site.Data.publications_and_talks }}
+        <div>
+            {{ range $index, $element := first .LIMIT .context.Site.Data.professional_communication }}
                 {{ if eq $element.type "talk" }}
                     {{ partial "talk.html" (dict "context" . "element" $element)}}
                 {{ else if eq $element.type "publication" }}
@@ -17,8 +17,8 @@
             {{ end }}
         </div>
 
-        {{ if and (.ON_INDEX) (gt (len .context.Site.Data.publications_and_talks) .LIMIT) }}
-        <a href="{{ .URL }}publications-and-talks" class="read-more">View All</a>
+        {{ if and (.ON_INDEX) (gt (len .context.Site.Data.professional_communication) .LIMIT) }}
+        <a href="{{ .URL }}professional-communication" class="read-more">View All</a>
         {{ end }}
     </div>
 </section>
