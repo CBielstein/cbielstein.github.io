@@ -688,6 +688,12 @@ ul.cloud li {
   padding-bottom: 2em;
 }
 
+@media all and (max-width: 400px) {
+  .products {
+    grid-template-columns: auto;
+  }
+}
+
 .product {
   display: flex;
   align-items: center;
