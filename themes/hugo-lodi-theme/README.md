@@ -116,6 +116,16 @@ draft: false
 
 ```
 
+## Products
+
+Professional product contributions can be added as a YAML file at `data/products.yml`. The format of that file should be as follows:
+
+```yaml
+icon: # Title of an image file located under `static/img/products`, this is displayed for the product entry
+title: # Title of the product to display under the icon
+url: # URL to the product page for more info
+```
+
 ## Professional Communication
 
 Professional communication can be added as a YAML file at `data/professional_communication.yml`. The format of that file should be as follows:

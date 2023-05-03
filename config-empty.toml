@@ -93,12 +93,20 @@ theme = "hugo-lodi-theme"
     title = "Skills"
     subtitle = ""
 
+
+[params.products]
+    enable = true
+    title = "Products"
+    subtitle = "Professional Product Contributions"
+    index_limit = 9 # Max number of items to show on index
+    limit = 10000 # Max number of items to show on dedicated page
+
 [params.professional_communication]
     enable = true
     title = "Professional Communication"
     subtitle = "Talks and Publications"
-    index_limit = 5 # Max number of timeline items to show on index
-    limit = 10000 # Max number of timeline items to show on dedicated page
+    index_limit = 5 # Max number of items to show on index
+    limit = 10000 # Max number of items to show on dedicated page
 
 [params.timeline]
     enable = true
