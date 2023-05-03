@@ -31,11 +31,19 @@ disableKinds = ["taxonomy", "term"]
             "I received my education from [The University of Texas at Austin](https://www.utexas.edu/), where I completed a master's in computer science, and [Austin Community College](https://www.austincc.edu/), where I first discovered my love of programming.",
             "I enjoy building high-quality and reliable software and I'm passionate about using technology and technology companies for societal good.",
             "In my spare time, I can be found sailing, tinkering with a ham radio, or in the park with my dog."]
+    on_nav = false
 
 [params.specialties]
     enable = true
     title = "Specialties"
     subtitle = "Areas of Experience"
+    on_nav = false
+
+[params.projects]
+    enable = true
+    title = "Projects"
+    subtitle = "Open Source and Personal Projects"
+    on_nav = true
 
 [params.products]
     enable = true
@@ -43,16 +51,13 @@ disableKinds = ["taxonomy", "term"]
     subtitle = "Professional Product Contributions"
     index_limit = 9
     limit = 10000
-
-[params.projects]
-    enable = true
-    title = "Projects"
-    subtitle = "Open Source and Personal Projects"
+    on_nav = true
 
 [params.skills]
     enable = true
     title = "Skills"
     subtitle = ""
+    on_nav = false
 
 [params.professional_communication]
     enable = true
@@ -60,6 +65,7 @@ disableKinds = ["taxonomy", "term"]
     subtitle = "Talks and Publications"
     index_limit = 5
     limit = 10000
+    on_nav = true
 
 [params.timeline]
     enable = true
@@ -67,6 +73,7 @@ disableKinds = ["taxonomy", "term"]
     subtitle = "Career Timeline"
     index_timeline_limit = 5
     timeline_limit = 10000
+    on_nav = true
 
 [params.footer]
     enable = true
