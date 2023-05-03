@@ -49,8 +49,8 @@ disableKinds = ["taxonomy", "term"]
 
 [params.publications_and_talks]
     enable = true
-    title = "Publications and Talks"
-    subtitle = ""
+    title = "Professional Communication"
+    subtitle = "Talks and Publications"
     index_limit = 5
     limit = 10000
 
