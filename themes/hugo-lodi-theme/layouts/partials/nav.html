@@ -3,29 +3,31 @@
         <img class="logo" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}">
     </a>
     <div class="sub-navigation">
+        {{ if .Site.Params.hero.on_nav }}
         <a href="#" class="main-navigation-link" id="about" data-scroll-goto="0">About</a>
+        {{ end }}
 
-        {{ if .Site.Params.specialties.enable }}
+        {{ if and .Site.Params.specialties.enable .Site.Params.specialties.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="1">{{ .Site.Params.specialties.title }}</a>
         {{ end }}
 
-        {{ if .Site.Params.projects.enable }}
+        {{ if and .Site.Params.projects.enable .Site.Params.projects.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="2">{{ .Site.Params.projects.title }}</a>
         {{ end }}
 
-        {{ if .Site.Params.products.enable }}
+        {{ if and .Site.Params.products.enable .Site.Params.products.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="3">{{ .Site.Params.products.title }}</a>
         {{ end }}
 
-        {{ if .Site.Params.skills.enable }}
+        {{ if and .Site.Params.skills.enable .Site.Params.skills.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="4">{{ .Site.Params.skills.title }}</a>
         {{ end }}
 
-        {{ if .Site.Params.professional_communication.enable }}
+        {{ if and .Site.Params.professional_communication.enable .Site.Params.professional_communication.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="5">{{ .Site.Params.professional_communication.title }}</a>
         {{ end }}
 
-        {{ if .Site.Params.timeline.enable }}
+        {{ if and .Site.Params.timeline.enable .Site.Params.timeline.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="6">{{ .Site.Params.timeline.title }}</a>
         {{ end }}
     </div>

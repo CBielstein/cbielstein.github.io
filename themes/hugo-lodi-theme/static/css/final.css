@@ -103,8 +103,8 @@ footer {
 
 @media all and (max-width: 460px) {
   .main-navigation-link {
-    font-size: 13px;
-    padding: 15px;
+    font-size: 12px;
+    padding: 5px;
   }
   #about {
     display: none;
