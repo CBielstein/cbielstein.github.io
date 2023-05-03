@@ -21,6 +21,10 @@
             {{ partial "projects.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.products.enable }}
+            {{ partial "products.html" (dict "context" . "LIMIT" .Site.Params.products.index_limit "ON_INDEX" true)}}
+            {{ end }}
+
             {{ if .Site.Params.skills.enable }}
             {{ partial "skills.html" . }}
             {{ end }}

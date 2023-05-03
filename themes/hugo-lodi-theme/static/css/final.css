@@ -148,7 +148,8 @@ section {
 .skills,
 .projects,
 .timeline-page,
-.professional-communication-page {
+.professional-communication-page,
+.products-page {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -678,4 +679,34 @@ ul.cloud li {
 
 .communication {
   padding: 1em;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4em;
+  padding-bottom: 2em;
+}
+
+@media all and (max-width: 400px) {
+  .products {
+    grid-template-columns: auto;
+  }
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.product-icon {
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.product-title {
+  text-align: center;
 }

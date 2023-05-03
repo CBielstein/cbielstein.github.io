@@ -1,0 +1,27 @@
+- icon: sea-ad.png
+  title: Seattle Alzheimer's Disease Brain Cell Atlas
+  url: https://portal.brain-map.org/explore/seattle-alzheimers-disease
+- icon: cell_taxonomies.webp
+  title: Mouse PatchSEQ VIS
+  url: https://knowledge.brain-map.org/data/1HEYEW7GMUKWIQW37BO/specimens
+- icon: AllenBrainMap.png
+  title: Allen Brain Map | Data Catalog
+  url: https://knowledge.brain-map.org/
+- icon: AzureDigitalTwinsIcon.jpeg
+  title: Azure Digital Twins
+  url: https://azure.microsoft.com/en-us/products/digital-twins
+- icon: WindowsMixedReality.png
+  title: Windows Mixed Reality
+  url: https://www.microsoft.com/en-us/mixed-reality/windows-mixed-reality
+- icon: Windows_10_Mobile_icon.svg
+  title: Windows 10 Mobile
+  url: https://en.wikipedia.org/wiki/Windows_10_Mobile
+- icon: Windows_10_Logo.svg
+  title: Windows 10
+  url: https://en.wikipedia.org/wiki/Windows_10
+- icon: LabVIEW_Logo.jpg
+  title: LabVIEW
+  url: https://www.ni.com/labview
+- icon: SnapStream_Media_Logo.jpg
+  title: SnapStream
+  url: https://www.snapstream.com/
