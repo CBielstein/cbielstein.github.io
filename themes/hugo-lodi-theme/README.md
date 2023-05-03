@@ -116,9 +116,23 @@ draft: false
 
 ```
 
+## Professional Communication
+
+Professional communication can be added as a YAML file at `data/professional_communication.yml`. The format of that file should be as follows:
+
+```yaml
+date: # Date to display of this talk/publication
+type: # Either "talk" or "publication", changes icon and some phrasing the list
+title: # Title of the talk/article
+venue: # For a talk, this is conference or similar where given, for a publication this is the publishing journal, website or similar
+links: # Optional list of links
+  - display: # Display text of the link
+    url: # URL of the link
+```
+
 ## Timeline
 
-A professional timeline can be added as a YAML file at `data/timeline.yml`. The format of that file should be added as follows:
+A professional timeline can be added as a YAML file at `data/timeline.yml`. The format of that file should be as follows:
 
 ```yaml
 - date: # Date to display on the timeline for this entry
@@ -127,7 +141,7 @@ A professional timeline can be added as a YAML file at `data/timeline.yml`. The 
   role: # Optionally, the role filled for the company
   links: # Optional list of links
     - display: # Display text of the link
-      url: # URL of the linke
+      url: # URL of the link
 ```
 
 ## Credits
