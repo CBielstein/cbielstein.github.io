@@ -1,20 +1,16 @@
 - date: January 2023
   update: Transferred to Lead Engineer for internal data platforms and tools
   company: Allen Institute for Brain Science
-  role: Lead Engineer
 - year: 2023
 - date: August 2022
   update: Became Lead Engineer for APIs powering public apps
   company: Allen Institute for Brain Science
-  role: Lead Engineer
 - date: Summer 2022
   update: Managed and mentored summer intern
   company: Allen Institute for Brain Science
-  role: Intern Manager
 - date: Spring 2022
   update: Lead Backend Engineer for Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)
   company: Allen Institute for Brain Science
-  role: Lead Engineer
   links:
     - display: SEA-AD Home Page
       url: http://sea-ad.org
@@ -33,7 +29,6 @@
 - date: "July 2021"
   update: Launched Allen Brain Map Specimen Explorer
   company: Allen Institute for Brain Science
-  role: Software Engineer III
   links:
     - display: Specimen Explorer Web App
       url: https://knowledge.brain-map.org/data/1HEYEW7GMUKWIQW37BO/specimens
@@ -41,7 +36,6 @@
 - date: December 2020
   update: Delivered large feature matrix processing ETL in collaboration with AWS
   company: Allen Institute for Brain Science
-  role: Software Engineer III
   links:
     - display: AWS Blog Post
       url: https://aws.amazon.com/blogs/big-data/how-the-allen-institute-uses-amazon-emr-and-aws-step-functions-to-process-extremely-wide-transcriptomic-datasets/
@@ -69,9 +63,8 @@
   company: Allen Institute for Brain Science
   role: Software Engineer III
 - date: Summer 2019
-  update: Ran new hire on-boarding for Azure IoT - Digital Twins team
+  update: Mentored new hires for Azure IoT - Digital Twins team
   company: Microsoft - Azure IoT
-  role: Software Engineer
 - date: June 2019
   update: Implemented new POCSAG pager encoder for Burning Man Festival
   company: Bielstein IT
@@ -80,23 +73,20 @@
 - date: October 2018
   update: Azure Digital Twins public preview released
   company: Microsoft - Azure IoT
-  role: Software Engineer
   links:
     - display: Release Announcement
       url: https://azure.microsoft.com/en-us/blog/announcing-the-public-preview-of-azure-digital-twins/
 - date: Summer 2018
   update: Mentored summer intern on Azure Digital Twins team
   company: Microsoft - Azure IoT
-  role: Intern Mentor
 - date: April 2018
-  update: Switched from systems to cloud engineering on Azure Digital Twins
+  update: Transferred teams to join Azure IoT working on Azure Digital Twins
   company: Microsoft - Azure IoT
   role: Software Engineer
 - year: 2018
 - date: October 2017
   update: Windows 10 Fall Creators Update released. Contributed additional new features-on-demand for virtual reality headsets and OpenSSH in Windows.
   company: Microsoft - Windows
-  role: Software Engineer
   links:
     - display: Guide to Mixed Reality
       url: https://learn.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/mixed-reality-software
@@ -105,11 +95,9 @@
 - date: Summer 2017
   update: Mentored summer intern on Windows Deployment team
   company: Microsoft - Windows
-  role: Intern Mentor
 - date: April 2017
   update: Windows 10 Creators Update releases. My contributions focus on features-on-demand support for Braille displays and complete uninstall of Internet Explorer 11
   company: Microsoft
-  role: Software Engineer
   links:
     - display: Using Narrator with Braille
       url: https://support.microsoft.com/en-us/windows/chapter-8-using-narrator-with-braille-3e5f065b-1c9d-6eb2-ec6d-1d07c9e94b20
@@ -120,8 +108,7 @@
   update: FCC "General Class" amateur radio license
 - date: July 2016
   update: Windows 10 Mobile Anniversary Update releases featuring my rework of upgrade progress bar
-  company: Microsoft
-  role: Software Engineer
+  company: Microsoft - Windows
 - date: Spring 2016
   update: Mentor high school CS students (next four years)
   company: Hunt the Wumpus Project
@@ -132,16 +119,14 @@
 - year: 2016
 - date: August 2015
   update: Joined Microsoft's Windows Deployment team
-  company: Microsoft
+  company: Microsoft - Windows
   role: Software Engineer
 - date: May 2015
   update: Graduated with master's, bachelor's, and associate's of computer science
   company: The University of Texas at Austin & Austin Community College
-  role: Graduate
 - date: May 2015
   update: "Completed master's thesis"
   company: The University of Texas at Austin
-  role: Master's Student
   links:
     - display: UbiPAL Project Page
       url: https://bielstein.dev/ubipal/
@@ -159,7 +144,6 @@
 - date: August 2013
   update: Began master's courses and thesis
   company: The University of Texas at Austin
-  role: Graduate Student
 - date: Fall 2013
   update: Internship building LabVIEW, a native Windows app
   company: National Instruments (NI)
@@ -177,17 +161,14 @@
 - date: Fall 2011
   update: Transferred to UT Austin
   company: The University of Texas at Austin
-  role: Student
 - date: Spring 2011
   update: Began studying computer science
   company: Austin Community College
-  role: Student
 - year: 2011
 - year: 2010
 - date: Fall 2009
   update: Began college coursework
   company: Austin Community College
-  role: Student
 - date: March 2009
   update: Began work as an IT and networking technician
   company: Bielstein IT
