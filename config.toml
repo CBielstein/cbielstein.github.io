@@ -47,6 +47,13 @@ disableKinds = ["taxonomy", "term"]
     title = "Skills"
     subtitle = ""
 
+[params.professional_communication]
+    enable = true
+    title = "Professional Communication"
+    subtitle = "Talks and Publications"
+    index_limit = 5
+    limit = 10000
+
 [params.timeline]
     enable = true
     title = "Timeline"

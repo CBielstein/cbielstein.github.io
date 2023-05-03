@@ -44,6 +44,10 @@
   links:
     - display: "Building Free CI/CD with GitHub Actions"
       url: https://seagl.org/archive/2020/building-free-ci-cd-with-github-actions
+    - display: Talk Video
+      url: https://archive.org/details/SeaGL2020-Cameron_Bielstein-Building_Free_CI_CD_with_GitHub_Actions
+    - display: Example Code
+      url: https://github.com/CBielstein/GitHubActionsTalk
 - date: October 2020
   update: Implemented custom Chrome browser plugin and daemon for file access/manipulation.
   company: Bielstein IT
@@ -130,6 +134,10 @@
   links:
     - display: UbiPAL Project Page
       url: https://bielstein.dev/ubipal/
+    - display: Paper
+      url: https://repositories.lib.utexas.edu/handle/2152/31851
+    - display: GitHub
+      url: https://github.com/cbielstein/ubipal
 - date: March 2015
   update: FCC "Technician Class" amateur radio license
 - year: 2015

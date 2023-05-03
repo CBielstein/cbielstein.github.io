@@ -1,0 +1,29 @@
+- date: December 2020
+  type: talk
+  title: "Integrated Data Framework"
+  venue: Allen Institute Showcase Symposium 2020
+  links:
+    - display: YouTube
+      url: https://www.youtube.com/live/uFtG-i-4RBI?feature=share&t=5373
+- date: November 2020
+  type: talk
+  title: Building Free CI/CD with GitHub Actions
+  venue: SeaGL 2020
+  links:
+    - display: Talk Info
+      url: https://seagl.org/archive/2020/building-free-ci-cd-with-github-actions
+    - display: Talk Video
+      url: https://archive.org/details/SeaGL2020-Cameron_Bielstein-Building_Free_CI_CD_with_GitHub_Actions
+    - display: Example Code
+      url: https://github.com/CBielstein/GitHubActionsTalk
+- date: May 2015
+  type: publication
+  title: "UbiPAL: secure messaging and access control for ubiquitous computing"
+  venue: Texas ScholarWorks - University of Texas Libraries
+  links:
+    - display: Project Page
+      url: https://bielstein.dev/ubipal/
+    - display: Paper
+      url: https://repositories.lib.utexas.edu/handle/2152/31851
+    - display: GitHub
+      url: https://github.com/cbielstein/ubipal

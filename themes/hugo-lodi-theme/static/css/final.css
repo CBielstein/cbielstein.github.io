@@ -147,7 +147,8 @@ section {
 .specialties,
 .skills,
 .projects,
-.timeline-page {
+.timeline-page,
+.professional-communication-page {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,6 +169,7 @@ section {
   font-size: 28px;
   color: #006d00;
   font-weight: 300;
+  margin-top: 0em;
 }
 
 .hero-left {
@@ -234,7 +236,7 @@ section {
   font-size: 44px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 0.4em;
+  min-height: 0.4em;
 }
 
 .skills-item,
@@ -630,4 +632,50 @@ ul.cloud li {
   padding: 0.125rem 0.25rem;
   text-decoration: none;
   position: relative;
+}
+
+.communication {
+  display: grid;
+  grid-auto-rows: auto auto auto;
+  grid-auto-columns: 50px auto;
+}
+
+.communication .icon-div {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.communication .icon-div .icon {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.communication .primary {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.communication .secondary {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.communication .tertiary {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.communication .link {
+  padding-right: 15px;
+}
+
+.communication {
+  padding: 1em;
 }
