@@ -688,7 +688,13 @@ ul.cloud li {
   padding-bottom: 2em;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 900px) {
+  .products {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media all and (max-width: 550px) {
   .products {
     grid-template-columns: auto;
   }
