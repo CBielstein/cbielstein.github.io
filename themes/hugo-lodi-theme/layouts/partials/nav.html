@@ -11,16 +11,16 @@
         <a href="#" class="main-navigation-link" data-scroll-goto="1">{{ .Site.Params.specialties.title }}</a>
         {{ end }}
 
+        {{ if and .Site.Params.skills.enable .Site.Params.skills.on_nav }}
+        <a href="#" class="main-navigation-link" data-scroll-goto="4">{{ .Site.Params.skills.title }}</a>
+        {{ end }}
+
         {{ if and .Site.Params.projects.enable .Site.Params.projects.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="2">{{ .Site.Params.projects.title }}</a>
         {{ end }}
 
         {{ if and .Site.Params.products.enable .Site.Params.products.on_nav }}
         <a href="#" class="main-navigation-link" data-scroll-goto="3">{{ .Site.Params.products.title }}</a>
-        {{ end }}
-
-        {{ if and .Site.Params.skills.enable .Site.Params.skills.on_nav }}
-        <a href="#" class="main-navigation-link" data-scroll-goto="4">{{ .Site.Params.skills.title }}</a>
         {{ end }}
 
         {{ if and .Site.Params.professional_communication.enable .Site.Params.professional_communication.on_nav }}
