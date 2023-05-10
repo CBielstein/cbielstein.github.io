@@ -1,3 +1,10 @@
+- date: May 2023
+  type: talk
+  title: Lessons from Building Software at the Pace of Science
+  venue: UWB Hacks 2023 (University of Washington Bothell)
+  links:
+    - display: UWB Hacks 2023
+      url: https://uwb-acm.github.io/uwb-hacks23/
 - date: December 2020
   type: talk
   title: "Integrated Data Framework"
