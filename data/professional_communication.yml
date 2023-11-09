@@ -1,3 +1,12 @@
+- date: November 2023
+  type: talk
+  title: "Diagrams as Code: An Intro to Mermaid"
+  venue: SeaGL 2023
+  links:
+    - display: Talk Info
+      url: https://osem.seagl.org/conferences/seagl2023/program/proposals/942
+    - display: Example Code
+      url: https://github.com/CBielstein/MermaidDiagramsTalk
 - date: May 2023
   type: talk
   title: Lessons from Building Software at the Pace of Science
