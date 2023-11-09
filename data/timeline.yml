@@ -1,3 +1,10 @@
+- date: November 2023
+  update: Conference talk at SeaGL 2023
+  links:
+    - display: "Diagrams as Code: An Intro to Mermaid"
+      url: https://osem.seagl.org/conferences/seagl2023/program/proposals/942
+    - display: Example Code
+      url: https://github.com/CBielstein/MermaidDiagramsTalk
 - date: April 2023
   update: Promoted to engineering manager of internal data platforms and tools team
   role: Software Engineer Manager
