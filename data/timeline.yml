@@ -8,6 +8,11 @@
 - date: Summer 2023
   update: Managed and mentored summer intern
   company: Allen Institute for Brain Science
+- date: May 2023
+  update: University tech talk at UWB Hacks 2023 @ University of Washington Bothell
+  links:
+    - display: UWB Hacks 2023
+      url: https://uwb-acm.github.io/uwb-hacks23/
 - date: April 2023
   update: Promoted to engineering manager of internal data platforms and tools team
   role: Software Engineer Manager
